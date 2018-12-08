@@ -7,7 +7,7 @@ TokenPuertaHAB11.button1,{action} Examine
 TokenPuertaHAB12.text,The door is locked, however you can see a silver keyhole underneath the handle.
 TokenDebajoCama.text,Earlier you thought you saw a flash of light from under the bed.
 EventTextLore00.button1,Continue
-UITxTinicial.uitext,\nYou look at the photo of the young Felicia -a blonde girl with big brown eyes- before entering. Behind the counter, a short man points a finger at the curtain at the rear of the room. You move between the old wooden cages, only the few shafts of moonlight guide your path and the shadows grow longer and more sinister the further you proceed into the shop. There is just enough light to make out the inhabitants of the cages - strange colourful birds. You pull the red curtain aside and descend down a flight of stairs and end at a red wooden door. You knock four times and the door opens, an oriental man stands in the door way blocking your entry. He looks you up and down before stepping to one side and gesturing for you to enter.  Once inisde he closes the door behind you, then opens a second door.\n\nIt takes a moment for your eyes to adjust to the light, several musicians are playing a lively Charleston at the back, while a young couple dances in the center of the small basement. On your left an exquisit looking bar catches your attention and you smack your lips - you do feel a little parched.\n\nYou look for an opening at the crowded bar and just as you find one the bartender slides you a bourbon, it has two ice cubes in it. He points to a gentleman sitting at the corner of the bar:\n\n<i>- On behalf of Mr. Ford. - </i>\n\nYou raise the glass as gesture of gratitude and head towards him, manouvering through the crowd. Previously they seemed to act as if you did not exist, but now they seem to form a corridor as you walk, guiding you to your destination, though none of them even look at you as you pass.\n\nYou greet Mr. Ford with a smile and he responds by raising his glass and taking a sip. You bring the drink to your lips...
+UITxTinicial.uitext,\nYou look at the photo of the young Felicia -a blonde girl with big brown eyes- before entering. Behind the counter, a short man points a finger at the curtain at the rear of the room. You move between the old wooden cages, only the few shafts of moonlight guide your path and the shadows grow longer and more sinister the further you proceed into the shop. There is just enough light to make out the inhabitants of the cages - strange colourful birds. You pull the red curtain aside and descend down a flight of stairs that ends at a red wooden door. You knock four times and the door opens, an oriental man stands in the door way blocking your entry. He looks you up and down before stepping to one side and gesturing for you to enter.  Once inside he closes the door behind you, then opens a second door.\n\nIt takes a moment for your eyes to adjust to the light, several musicians are playing a lively Charleston at the back, while a young couple dances in the center of the small basement. On your left an exquisit looking bar catches your attention and you smack your lips - you do feel a little parched.\n\nYou look for an opening at the crowded bar and just as you find one the bartender slides you a bourbon, it has two ice cubes in it. He points to a gentleman sitting at the corner of the bar:\n\n<i>- On behalf of Mr. Ford. - </i>\n\nYou raise the glass as gesture of gratitude and head towards him, manouvering through the crowd. Previously they seemed to act as if you did not exist, but now they seem to form a corridor as you walk, guiding you to your destination, though none of them even look at you as you pass.\n\nYou greet Mr. Ford with a smile and he responds by raising his glass and taking a sip. You bring the drink to your lips...
 UIBottonInicial.uitext,Begin
 EventTextLore01.text,You have a pounding headache and opening your eyes seems to makes it worse. You taste blood in your mouth, but you are not sure why. Thinking back, the last thing you remember was greeting Mr. Ford in that clandestine bar in the basement of the bird shop.
 EventTextLore01.button1,Continue
@@ -17,22 +17,22 @@ EventINTRO2.text,Place your Investigators in the space indicated.
 EventINTRO2.button1,Continue
 EventINTRO3.text,At the back of the room is a white wooden door. This appears to be the only way out of the bedroom. Place an explore token as indicated.
 EventINTRO3.button1,Continue
-EventBusquedaHAB11.text,You look through the key hole but cannot see anything. You attempt to force it with your shoulder, but it still does not budge, not even an inch. Suddenly you realize that the touch of the wood is unusually cold and a shiver runs down your spine, you have an unnerving feeling that you are being watched. Instinctively you turn around as something catches your attention. Suffer 1 facedown horror ({will}) negates.\n\nPlace Search tokens as indicated.
+EventBusquedaHAB11.text,You look through the key hole but cannot see anything. You attempt to force it with your shoulder, but it still does not budge - not even an inch. Suddenly you realize that the touch of the wood is unusually cold - a shiver runs down your spine, you have an unnerving feeling that you are being watched. Instinctively you turn around as something catches your attention. Suffer 1 facedown horror ({will}) negates.\n\nPlace Search tokens as indicated.
 TokenDebajoAlfombra.text,The vibrant carpet stands out in stark contrast to the rest of the drab and dusty room.
 TokenDebajoCama.button1,{action} Search
-EventMeterManoDebajoCama.text,You crouch down and reach blindly under the bed until you find something rigged and cold. You attempt to pull it out into the light but meet resistance. Suddenly the object begins to pull you towards the darkness with an unrelenting strength. You stuggle against it and finally managed to pull yourself free, holding the object you stumble backwards falling hard. Suffer 2 facedown damage ({agility}) negates. \n\nGain the <b>{c:QItemPalanca}</b> common item. Then discard the Search token.
+EventMeterManoDebajoCama.text,You crouch down and reach blindly under the bed until you find something ridged and cold. You attempt to pull it out into the light but meet resistance. Suddenly the object begins to pull you towards the darkness with an unrelenting strength. You stuggle against it and finally managed to pull yourself free, holding the object you stumble backwards falling hard. Suffer 2 facedown damage ({agility}) negates. \n\nGain the <b>{c:QItemPalanca}</b> common item. Then discard the Search token.
 TokenDebajoAlfombra.button1,{action} Search
 EventDebajoAlfombraHAB1.text,You raise the carpet notice that one of the floorboards has been recently repaired. With a little effort you think that you might be able to pull it up.\n\nTest ({strength}) if you have the <b>{c:QItemPalanca}</b> common item roll 2 additional dice.
 EventDebajoAlfombraHAB1.button1,Continue
 EventDebajoAlfombraHAB1.button2,Fail
-EventResolucionTirarAlfHAB1.text,You strain with effort and sweat begins to bead on your forehead. Grunting with effort you finally work the board free. A glint of light from a metallic object catches your eye and you reach in to feel what it is. Your fingers close around a small metal key.\n\nYou gain the <b>{c:QItemLlave1} </b>and 1 clue {clue}. Then remove this Search token.
+EventResolucionTirarAlfHAB1.text,You strain with effort and sweat begins to bead on your forehead. Grunting with effort you finally work the board free. A glint of light from a metallic object catches your eye and you reach in to feel what it is. Your fingers close around a small metal key.\n\nGain the <b>{c:QItemLlave1} </b> common item and 1 clue {clue}. Then remove this Search token.
 TokenPuertaHAB12.button1,Continue
 TokenPuertaHAB13.text,The metal of the key matches the door perfectly and your spirits rise at the prospect of getting out of this musty room.\n\nThe Investigator holding the <b>Silver Key</b> unique item may open this door.
 TokenPuertaHAB13.button1,{action} Open
 EventSalirHAB1.text,A long, narrow, dimly lit corridor stretches ahead of you.\n\nDiscard the Explore token, then place the <b>{c:TilePasillo2}</b>  tile, {c:TileFinalPasillo}  tile and walls as indicated.\n\nYou may move one space into the explored area.
 EventDesarrolloPasillo1.text,Along the corridor are two doors and to one side is a wooden desk. Place a Search token and two Explore tokens as indicated.
 TokenMarcadorFake2.text,A desk of reddish wood, leaning against the wall of the corridor. Someone has left some papers lying on top.
-EventDesarrolloPasillo1B.text,Place a Sight token as indicated.
+EventDesarrolloPasillo1B.text,The corridor turns to the right. Place a Sight token as indicated.
 EventResMarcadorFake2.text,You look through the papers, but do not find anything of interest. The text appears to be oriental in origin. Gain 1 clue {clue} token and become<b> Dazed</b>.
 TokenMarcadorFake2.button1,{action} Search
 TokenPuertaSOTANO11.text,The wooden door is worn and parts of the paint have begun to peel away.
@@ -79,7 +79,7 @@ TokenArmarioCocina.button1,{action} Search
 TokenPuertaCocinaPasillo.text,The wooden door is blackened by smoke from the kitchen.
 TokenPuertaCocinaPasillo.button1,{action} Open
 EventDentroCocina.button1,Continue
-EventAbrirPuertaFAKE2.text,The door opens inwards and the light from inside momentarily blinds you. Blinking away the spots from your vision you realize that there are bars that prevent you from entering the room. Inside you are suprised to see an enormous child, bigger than it should be, walking around the room pointing and shouting:\n\n<i> -Mommy, mommy! I want this, I want this little bird! </i>\n \nYou slam the door shut and block it with a chair. Suffer 3 facedown horror ({lore} -1) negates, then gain 2 Clues {clue}. Remove the explore token.
+EventAbrirPuertaFAKE2.text,The door opens inwards and the light from inside momentarily blinds you. Blinking away the spots from your vision you realize that there are bars that prevent you from entering the room. Inside you are surprised to see an enormous child, bigger than it should be, walking around the room pointing and shouting:\n\n<i> -Mommy, mommy! I want this, I want this little bird! </i>\n \nYou slam the door shut and block it with a chair. Suffer 3 facedown horror ({lore} -1) negates, then gain 2 Clues {clue}. Remove the explore token.
 EventAbrirPuertaFAKE2.button1,Continue
 EventRebuscarMuebleBar.text,All of the bottles appear to be empty, test ({observation}).
 EventRebuscarMuebleBar.button1,Continue
@@ -197,7 +197,7 @@ TokenPuertaAzulOFF.text,A white door is stained with mud and a faint blue light 
 TokenPuertaAzulOFF.button1,Continue
 EventAzazoth1.text,\nYou open the door and the pleasant melody of a flute and drums accompanies an intense flash of light that blinds you momentarily. You try to open your eyes again and realize that the black spot in the center of your vision is not an effect of the flash, but a black abyss that does not stop growing and comes from the center of the star that you are contemplating. The heat is unbearable and the light burns you. Blisters begin to appear on your skin that is exposed.\n\n The Investigator discards all facedown damage and horror cards and then takes a Wounded and Insanity card. You are <b> Wounded </b> and <b> Insane </b>. Gain 2 Clues {clue}.\n\nIf the Investigator was already wounded and / or insane, he is eliminated. The remaining Investigators have one turn to complete the investigation.\n
 EventAzazoth1.button1,Continue
-EventAzazoth2.text,\nThe melody stops suddenly. A whip of light hits you in the chest and you fall backwards, sprawling to the ground. Then, a small tentacle of light slammed the door and silence reigns in the basement.\n\n You suffer 2 damage ({strength} -1 negates) and then 1 horror. You gain 1 clue {clue}. Remove the Explore token.\n
+EventAzazoth2.text,\nThe melody stops suddenly. A whip of light hits you in the chest and you fall backwards, sprawling to the ground. Then, a small tentacle of light slams the door and silence reigns in the basement.\n\n Suffer 2 damage ({strength} -1 negates) and then suffer 1 horror. Gain 1 clue {clue}. Remove the Explore token.\n
 EventAzazoth2.button1,Continue
 EventBuscarSotano1RES.text,You drop to your knees and dig in the mud until you can unearth a huge metal box. You open it easily and inside there are several objects that could be of use.\n\nGain the <b> Bandages </b> and <b> Lucky Cigarette Case </b> common items. Remove the Search token.
 EventBuscarSotano1RES.button1,Continue
@@ -305,7 +305,7 @@ EventDentroDespacho.text,The desk in the center of the room has two drawers to o
 EventDentroDespacho.button1,Continue
 TokenMesaDespacho.text,The table is clean and tidy. A half-open drawer catches your eye.
 TokenMesaDespacho.button1,{action} Search
-EventBuscarMesaDespacho.text,Among the colourful petals that fill the drawer, you see the shine of an old watch and next to it a set of rusty keys.\n\nObtain the <b> Pocket Watch </b> common item, the <b> Old Keys </b>unique item and become <b>Dazed</b>. \n Remove the Search token.
+EventBuscarMesaDespacho.text,Among the colourful feathers that fill the drawer, you see the glint of an old metal watch and next to it a set of rusty keys.\n\nObtain the <b> Pocket Watch </b> common item, the <b> Old Keys </b>unique item and become <b>Dazed</b>. \n Remove the Search token.
 EventBuscarMesaDespacho.button1,Continue
 TokenMarcadorFake3.text,A shelf full of tomes, one bundle of books draws your attention and you notice a scrawled note indicating that they are dated from around 2000 AD.
 TokenMarcadorFake3.button1,{action} Search
@@ -380,7 +380,7 @@ EventMythosFlavor04.text,The soil begins to get wet as a liquid seeps from the g
 EventMythosFlavor04.button1,Continue
 EventMythosSoft01.text,This event of myths affects all Investigators in a hallway space.\n Long, cold fingers surround your neck, but you can not see anything. They begin to squeeze and you begin to struggle for air, causing your head spins. A cold sweat trickles down the back of your neck and you fear that you may faint at any moment. ({strength}: 2);\nIf you fail, you faint; Suffer 2 facedown damage  and become <b> Stunned </b>.\nIf you succeed, you can somehow free yourself, yet the ordeal has left you with a hacking cough. You reach into your mouth to remove the object that is obstructing your throat and gag as you pull out a bird feather; Suffer 1 facedown damage and you gain 1 clue {clue}.
 EventMythosSoft01.button1,Continue
-EventMythosSoft02.text,\nThe attention of<b> {rnd: hero} </b> is drawn by the sound of a bird chirping.\n\nWhat do you do?
+EventMythosSoft02.text,\nThe attention of<b> {rnd:hero} </b> is drawn by the sound of a bird chirping.\n\nWhat do you do?
 EventMythosSoft02.button1,Search the immediate area
 EventMythosSoft02.button2,Ignore the sound
 EventMythosSoft02Consolar.text,\nYou can't help but give into curiosity and examine the area. Just as you are about to give up, you turn to see a green feather floating down from just above your eye line. You reach out and catch it, as your fingers touch it a chill runs down your spine...  With a start you realise that is not infact a feather, but a small green tentacle writhing between your fingers like the tail of a freshly cut lizard. You throw it away in horror .. only to see its a green feather again... It softly floats down and settles on the floor.\n\nGain 1 clue {clue} and suffer 1 horror ({will} -2 negates).\n
@@ -388,7 +388,7 @@ EventMythosSoft02Consolar.button1,Continue
 EventMythosSoft02Ignorar.text,Not seeing anything at first glance, you decide to follow your previous path. However with each step you take, the soft tweets call to you and little by little they penetrate deeper and deeper into into ears, as if it were small metal pins. ({will}: 2).
 EventMythosSoft02Ignorar.button1,Success
 EventMythosSoft02Ignorar.button2,Failure
-EventMythosSoft02IgnorarBIEN.text,You breathe deeply. Its been too much time for you to have not eaten or slept, your mind must be playing tricks on you. You continue to walk and as you move futher away, the tweet begins to quell. A deep sense of relief washes over you.\n\nYou may flip 1 horror facedown or discard one facedown horror.
+EventMythosSoft02IgnorarBIEN.text,You breathe deeply. Its been too much time for you to have not eaten or slept, your mind must be playing tricks on you. You continue to walk and as you move futher away, the tweets begin to quell. A deep sense of relief washes over you.\n\nYou may flip 1 horror facedown or discard one facedown horror.
 EventMythosSoft02IgnorarBIEN.button1,Continue
 EventMythosSoft03.text,This event of myths affects the Investigator with the most items.\n\n A harsh sound approaches you - growing louder and louder, but you can't see anything approaching. Suddenly you are wrapped in a black mass of feathers, with beaks that squark and chatter around you. They start to peck and and claw at you - attempting to get under your clothes. Suffer 2 facedown damage ({agility} -2 negates); If you suffer damage drop items equal to the number of damage taken +1. Then suffer 1 facedown horror.
 EventMythosSoft03.button1,Continue
@@ -534,7 +534,7 @@ EventMythosSoft08C.text,\nThere is an air of tension lingering, causing you to f
 EventMythosSoft08C.button1,Continue
 EventEntrarInvernadero.text,A white door stained with mud.\n \nIf the Nursery tile is active, you may go through the door without spending an action ({action}).
 EventEntrarInvernadero.button1,Continue
-EventDesarrolloPasillo1A.text,At the end of the corridor, several papers lay scattered across a table, some have spilled onto the floor.\n\nPlace a search token a indicated.
+EventDesarrolloPasillo1A.text,At the end of the corridor, several papers lay scattered across a table. Some have spilled onto the floor.\n\nPlace a search token a indicated.
 EventDesarrolloPasillo1A.button1,Continue
 EventResolucionPuzzleBast.text,\nVery carefully you get to put in place each piece of parchment and finally you can see the full picture: a beautiful woman surrounded by cats. With strange symbols engraved below.\n\nGain the {c:QItemPruebaFoto} unique item.\n  \nDiscard this Search token.\n\nAn investigator with the <b> {c:QItemPruebaFoto} </b> may inspect it from the Items menu.\n
 EventResolucionPuzzleBast.button1,Continue
@@ -542,6 +542,6 @@ TokenzzINFO.text,Among the papers you notice several with handwritten annotation
 TokenzzINFO.button1,{action} Solve
 PuzzlezzINFO.button1,Solve
 EventIntro_TextLore00.button1,Continue
-EventIntro_TextLore01.text,Your head pounds and in your mouth is a mouth you can taste the familiar taste of blood. You contemplate opening your eyes, but fear it will just make your throbbing head more painful.\n\nThe last thing you remember was meeting Mr. Ford at that clandestine bar, in the basement of the bird shop.
+EventIntro_TextLore01.text,Your head pounds and in your mouth you can taste the familiar taste of blood. You contemplate opening your eyes, but fear it will just make your throbbing head more painful.\n\nThe last thing you remember was meeting Mr. Ford at that clandestine bar, in the basement of the bird shop.
 EventIntro_TextLore01.button1,Continue
 EventRezaryLlorar.text,Nothing happens, but for some reason you feel a sense of relief.
