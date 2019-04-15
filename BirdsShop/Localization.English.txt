@@ -1,5 +1,5 @@
-﻿.,English
-quest.name,22.30h at the bird shop
+.,English
+quest.name,22.30h at the bird shop (V2.1)
 quest.description,The Gordon family has contacted you to find their daughter, Felicia. She has been missing for a few days and although the police believe that she has fled with her boyfriend, her parents are not so sure. The last clue is an appointment in her personal diary: <i>22.30h at the bird shop</i>
 quest.authors,Miss Fernwood & EtiCarasoft\nEnglish Translation - Scrubbless
 TokenPuertaHAB11.text,The door is locked, however you can see a silver keyhole underneath the handle.
