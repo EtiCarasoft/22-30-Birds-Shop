@@ -1,6 +1,6 @@
 .,English
 quest.name,22.30h at the bird shop (V2.2)
-quest.description,The Gordon family has contacted you to find their daughter, Felicia. She has been missing for a few days and although the police believe that she has fled with her boyfriend, her parents are not so sure. The last clue is an appointment in her personal diary: <i>22.30h at the bird shop</i>.\nThis scenario only needs the initial box of Mansions 2.\notes from the creator: If you want to face this scenario, this will pose a different challenge to the other scenarios of Mansions of Madness, it is extremely difficult and frustrating. You'll have to walk around with a thousand eyes.
+quest.description,The Gordon family has contacted you to find their daughter, Felicia. She has been missing for a few days and although the police believe that she has fled with her boyfriend, her parents are not so sure. The last clue is an appointment in her personal diary: <i>22.30h at the bird shop</i>\nThis scenario only needs the initial box of Mansions 2.\notes from the creator: If you want to face this scenario, this will pose a different challenge to the other scenarios of Mansions of Madness, it is extremely difficult and frustrating. You'll have to walk around with a thousand eyes.
 quest.authors,Miss Fernwood & EtiCarasoft\nEnglish Translation - Scrubbless
 TokenPuertaHAB11.text,The door is locked, however you can see a silver keyhole underneath the handle.
 TokenPuertaHAB11.button1,{action} Examine
@@ -63,8 +63,8 @@ PuzzleCajonMesaPasillo.button1,Continue
 EventResolucionPuzzle1.text,You open the drawer and search through its contents. A note catches your eye, it reads: <i> 1,2,3,4 ... 3 ways to die 1 to leave. </i> Underneith the note is a small key.\n\nSuffer 1 facedown horror and gain the <b>Circumstantial Evidence</b>, and <b>{c:QItemLlave2} </b>unique items. Then gain 1 clue {clue}. Remove the Search token.
 TokenPuertaCOCINA11.text,As you approach the door, a strong smell of freshly baked cakes reminds you that you have not eaten in several hours. There is light coming from under the door but the door itself appears to be locked. Under the handle you can see a small brass key hole\n\n Only the Investigator holding the <b>{c:QItemLlave2} </b>may open this door.
 TokenPuertaCOCINA11.button1,{action} Open
-EventAbrirPuertaFAKE1.text,You open the door and you barely have time to react as a pile of bricks fall on you. Battered and bruised you look up to see that the doorway has been bricked over.\n\n You suffer 2 damage, gain 1 clue {clue} and become <b> Dazed</b>. Remove the explore token.
-EventAbrirPuertaFAKE1.button1,Continue
+EventAbrirPuertaFAKE1Pesadilla.button1,Continue
+EventBusquedaFake1Pesadilla.text,When you inspect them more closely, you realize that they are black and white, they have an extremely pale complexion and their eyes are stitched.\n\n Suffer 1 facedown horror and become<b> Dazed </b>.
 EventMostrarCocina.text,You open the door and see a long table that dominates a small dining room. Through a serving hatch you can see an adjoining kitchen.\n\nRemove the Explore token and place the {c:TileComedorCocina} tile.
 EventMostrarCocina.button1,Continue
 EventDentroCocina.text,\nAt the end of the dining room is a door and to its side is an elegant looking liquor cabinet. Through the serving hatch you can see that someone has left the refrigerator open and a puddle has formed on the floor. Broken glass from several smashed cupboard doors litters the floor. At the rear of the room you notice a wooden door.\n\nPlace Explore and Search tokens as indicated. You may move one space into the explored area.\n
@@ -79,14 +79,14 @@ TokenArmarioCocina.button1,{action} Search
 TokenPuertaCocinaPasillo.text,The wooden door is blackened by smoke from the kitchen.
 TokenPuertaCocinaPasillo.button1,{action} Open
 EventDentroCocina.button1,Continue
-EventAbrirPuertaFAKE2.text,The door opens inwards and the light from inside momentarily blinds you. Blinking away the spots from your vision you realize that there are bars that prevent you from entering the room. Inside you are surprised to see an enormous child, bigger than it should be, walking around the room pointing and shouting:\n\n<i> -Mommy, mommy! I want this, I want this little bird! </i>\n \nYou slam the door shut and block it with a chair. Suffer 3 facedown horror ({lore} -1) negates, then gain 2 Clues {clue}. Remove the explore token.
-EventAbrirPuertaFAKE2.button1,Continue
-EventRebuscarMuebleBar.text,All of the bottles appear to be empty, test ({observation}).
-EventRebuscarMuebleBar.button1,Continue
-EventRebuscarMuebleBar.button2,Fail
-EventFailBuscarBar.text,You do not notice anything of interest.
-EventFailBuscarBar.button1,Continue
-EventSOLRebuscarMuebleComedor.text,After a while of searching through empty bottles, you discover small compartment that contains the only full bottle in the cabinet. When you take it out you realize that you have something hanging around your neck.\n\n Gain the <b>Holy Water </b> common item and the<b> {c:QItemSectario}</b> unique item. Gain 1 clue {clue}. Remove the Search token.
+EventAbrirPuertaFAKE2Pesadilla.button1,Continue
+EventMythosCampanarioPesadilla.text,This mythos event affects all Investigators who are not in the bell tower.\n\n The house starts to creak and a loud bell rings out, deafening you. Test ({agility}: 2); If you fail become <b> Stunned </b> and suffer 1 of damage. If you succeed you manage to clasp your hands over your ears, just in time to dampen the noise.
+EventRebuscarMuebleBarPesadilla.button1,Continue
+EventRebuscarMuebleBarPesadilla.button2,Fail
+EventSOLRebuscarBar.button1,Continue
+EventFailRebuscarBar.button1,Continue
+EventMythosCocinaPesadilla.text,This myths event affects all Investigators in the Kitchen and/or Dining Room tiles.\n\nThe dining table is set for eight people, the crockery is of exquisite quality and the gleaming silver cutlery is meticulously arranged. You become fixated, analyzing the intricate reliefs of a wine decanter. A sharpe whistle and a lacerating pain causes you to instinctively put your hand on your neck. When you take it away, you notice it stained red from a cut across your neck. Looking up you see a knife sticking in the opposite wall, its blade flexing from its recent flight. You turn quickly, but are unable to see anyone that could have thrown it. You suffer 3 facedown damage ({agility} -1 negates). If you suffer 1 or more damage, become<b> Stunned </b>. Then suffer 1 facedown horror ({will} -2 negates).
+EventFailRebuscarBar.text,You do not notice anything of interest.
 EventBuscarNevera.text,The food in the fridge has long since spoiled and huge worms wriggle and writhe through the reminants. You open the small freezer compartment and take out a bottle that is familiar to you.\n\nGain the <b>Whiskey</b> common item, and become<b> Dazed </b>. Remove the Search token.
 EventAmariosCocina.text,You look inside the closet, inside is a bird's nest full of coloured feathers and the reminants of broken glass. Being careful not to cut yourself, you take a black egg from the nest. Immediately you realize that it is infact not an egg, but a polished stone.\n\n Gain the <b>{c:QItemTalisman}</b>. Remove the Search token.
 EventAmariosCocina.button1,Continue
@@ -105,8 +105,8 @@ EventBorrarBaho.button1,Continue
 EventDentroLavabo.button1,Continue
 EventDescifrarBaho.text,You study the letters carefully for a few moments. The more you look at them, the more you seem to understand what is written. Without realizing it you begin to recite the litany that you are reading in a language that you can't even comprihend.
 EventDescifrarBaho.button1,Continue
-EventDescifrarBaho2.text,The bathroom lights suddenly goes out and the air turns cold.\n\n Place a darkness in the space. All Investigators in the Bathroom space suffer 2 horror ({will} -1 negates).
-EventDescifrarBaho2.button1,Continue
+EventDescifrarBaho2Pesadilla.button1,Continue
+EventMALMALPesadilla.text,\n\nThe child hugs you tightly and whispers in your ear: <i>\nI am you and you are me, now you will see what we both can see</i>.\n\nYou see yourself lying down, you appear to be asleep and where you would expect someone to be crying at your side, you realise that you are alone, in the middle of nowhere. Everything is dark and you don't seem to be breathing. You go towards a pinprick of light, though youfeel a great sense of forboding as you approach. You see the face of a man with scared and torn eyes, he grabs your head with giant, cold hands and drags you towards the light. It shows you a red curtain and a flock of colourful birds bursts into flight coming straight towards you.\nYou close your eyes and hear the voice of a small child:\n- <i> Welcome home, Pajarito .- </i>.\n\nYou gain the spell <b> Feeding the mind </b>.\nThe Investigator discards all his facedown horror cards and becomes <b> Insane </b>.\n\nIf the Investigator was already insane, he is defeated and the Investigators have one additional turn to complete the investigation.\n\n
 EventDescifrarBaho3.text,The lights flciker back on and you hear the sob of a little boy who has suddenly appeared, curled up in the middle of the bathroom floor.\n\nRemove the darkness and place a person token as indicated.
 EventDescifrarBaho3.button1,Continue
 TokenFantasmaNaranja1.text,A child is curled up on the bathroom floor, crying inconsolably.
@@ -115,8 +115,7 @@ TokenFantasmaNaranja1.button2,{action} Hello little one
 TokenFantasmaNaranja1.button3,{action} Pray
 EventMAL.text,<i> -I wanted that little bird !! - </i>\n\nThe child screams while looking at you, his face red from tears. You wrap him in your arms and he stops crying. Raise your head, smile and say looking into your eyes:\n\n <i> -I know what we will do, ... you will be my little bird.- </i>
 EventMAL.button1,Continue
-EventMALMAL.text,\n\nThe child hugs you tightly and whispers in your ear: <i>\nI am you and you are me, now you will see what we both can see</i>.\n\nYou see yourself lying down, you appear to be asleep and where you would expect someone to be crying at your side, you realise that you are alone, in the middle of nowhere. Everything is dark and you don't seem to be breathing. You go towards a pinprick of light, though youfeel a great sense of forboding as you approach. You see the face of a man with scared and torn eyes, he grabs your head with giant, cold hands and drags you towards the light. It shows you a red curtain and a flock of colourful birds bursts into flight coming straight towards you.\nYou close your eyes and hear the voice of a small child:\n- <i> Welcome home, Pajarito .- </i>.\n\nYou gain the spell <b> Feeding the mind </b>.\nThe Investigator discards all his facedown horror cards and becomes <b> Insane </b>.\n\nIf the Investigator was already insane, he is defeated and the Investigators have one additional turn to complete the investigation.\n\n
-EventMALMAL.button1,Continue
+EventMALMALPesadilla.button1,Continue
 EventRezaryLlorar.button1,Continue
 TokenPuertaCampanario.text,The wooden door rotten from moisture.
 TokenPuertaCampanario.button1,{action} Force
@@ -173,15 +172,13 @@ EventHeridoCaidaSotano2.text,Place the Investigator that was 'falling' from the 
 EventHeridoCaidaSotano2.button1,Continue
 EventMostrarSotanoCaida.text,You wonder how long you've been falling and if this pit has a bottom. As you think, the sensation of falling increases rapidly until you land on the hard, cold floor.\n\nPlace the <b> {c:TileSotano}</b> tile, door and a secret passage token as indicated.
 EventMostrarSotanoCaida.button1,Continue
-EventHeridoCaidaSotano.text,\nPlace the investigator who was falling from the bell tower in the basement space as indicated. This Investigator discards all of their facedown damage cards and takes a Wounded card. You are <b> Wounded </b>. Due to the hard fall, you also become <b> Stunned </b>.\n\nIf the Investigator was already injured, they are instead deeated. The remaining Investigators have one additional turn to complete the investigation.\n
-EventHeridoCaidaSotano.button1,Continue
+EventHeridoCaidaSotanoPesadilla.button1,Continue
+EventMythosHard03APesadilla.text,\nThis event of myths affects all Investigators.\n\nA sinister melody causes your head to pound, gripping your head you realise that your ears have started to bleed. You head feels like it is going to explore at any moment. Soft hands rest gently on yours and you look up to see the face of a small girl, she says:\n\n <i> -The spirits refuse to listen- </i>\n\nSuffer 3 damage ({strength} -1 negates) and 3 horror ({will} -1 negates).\n
 EventDentroSotano1.text,The smell of manure makes you feel nauseous and an intense humidity permeates throughout the room. There are no windows that allows air to enter the space, only the doors allow for any ventilation. The mud floor seems recently cleared in some places.\n\nPlace Explore and Search tokens as indicated.
-TokenPuertaFAKE3.text,There is a sign that reads <b> Warehouse </b>, hanging from a door that looks to be in poor condition.
-TokenPuertaFAKE3.button1,{action} Open
+EventHeridoCaidaSotanoPesadilla.text,\nPlace the investigator who was falling from the bell tower in the basement space as indicated. This Investigator discards all of their facedown damage cards and takes a Wounded card. You are <b> Wounded </b>. Due to the hard fall, you also become <b> Stunned </b>.\n\nIf the Investigator was already injured, they are instead deeated. The remaining Investigators have one additional turn to complete the investigation.\n
 TokenBusquedaSotano1.text,There is something bright sticking out of the mud.
 TokenBusquedaSotano1.button1,{action} Search
-TokenBusqueda2Sotano.text,A pile of old junk blackened by manure, is stacked in front of the staircase.
-TokenBusqueda2Sotano.button1,{action} Search
+TokenBusquedaSotano2.button1,{action} Search
 TokenPuertaVerdeOFF.text,A very thin beam of green light peaks from under the door, but you realize that it has no handle or lock to open it.
 TokenPuertaVerdeOFF.button1,Continue
 TokenMarcadorFake4.text,Part of the mud floor seems freshly cleared.
@@ -214,8 +211,7 @@ EventMALTentaculo2.text,The door is ajar. As you approach to open it again, the 
 TokenPuertaVerde01.text,A door has green light peaking from underneath it.
 TokenPuertaVerde01.button1,{action} Examine
 EventMALTentaculo2.button1,Continue
-TokenPuertaAzulLuzON.text,A white door stained with mud. A faint blue light filters through it.
-TokenPuertaAzulLuzON.button1,{action} Open
+TokenPuertaAzulON.button1,{action} Open
 EventMostrarInvernadero.text,The old nursery is surrounded by pots with dried and blackened flowers. Large windows give a view of the garden outside. A white door leads out into the garden.\n\n Place the {c:TileInvernadero} tile.
 EventMostrarInvernadero.button1,Continue
 EventDentroInvernaderoGOOD.button1,Continue
@@ -291,8 +287,7 @@ TokenFantasmaVerde12.button1,Ignore
 TokenFantasmaVerde12.button2,{action} \nWho are you?\nWho you are?
 TokenMarcadorFake1.text,A collection of portraits of young children.
 TokenMarcadorFake1.button1,{action} Examine
-EventBusquedaFake1.text,When you inspect them more closely, you realize that they are black and white, they have an extremely pale complexion and their eyes are stitched.\n\n Suffer 1 facedown horror and become<b> Dazed </b>.
-EventBusquedaFake1.button1,Continue
+EventBusquedaFake1Pesadilla.button1,Continue
 TokenFantasmaVerde1.text,<i> - What do you want to play today? - </i>
 TokenFantasmaVerde1.button1,Do nothing
 TokenFantasmaVerde1.button2,{action} Where are you?
@@ -305,8 +300,7 @@ EventDentroDespacho.text,The desk in the center of the room has two drawers to o
 EventDentroDespacho.button1,Continue
 TokenMesaDespacho.text,The table is clean and tidy. A half-open drawer catches your eye.
 TokenMesaDespacho.button1,{action} Search
-EventBuscarMesaDespacho.text,Among the colourful feathers that fill the drawer, you see the glint of an old metal watch and next to it a set of rusty keys.\n\nObtain the <b> Pocket Watch </b> common item, the <b> Old Keys </b>unique item and become <b>Dazed</b>. \n Remove the Search token.
-EventBuscarMesaDespacho.button1,Continue
+EventBuscarMesaDespachoPesadilla.button1,Continue
 TokenMarcadorFake3.text,A shelf full of tomes, one bundle of books draws your attention and you notice a scrawled note indicating that they are dated from around 2000 AD.
 TokenMarcadorFake3.button1,{action} Search
 EventResMarcadorFake3.text,You pick up the bundle of books very carefully, worried that any moment they will crumble away between your fingers. You open the bindings and one book falls open, a cascade of coloured feathers fall to the floor. Among the books is a leather bound book.\n\nObtain the <b>Old  Journal </b> uniue item and become<b> Dazed </b>. Then remove the Search token.
@@ -390,14 +384,14 @@ EventMythosSoft02Ignorar.button1,Success
 EventMythosSoft02Ignorar.button2,Failure
 EventMythosSoft02IgnorarBIEN.text,You breathe deeply. Its been too much time for you to have not eaten or slept, your mind must be playing tricks on you. You continue to walk and as you move futher away, the tweets begin to quell. A deep sense of relief washes over you.\n\nYou may flip 1 horror facedown or discard one facedown horror.
 EventMythosSoft02IgnorarBIEN.button1,Continue
-EventMythosSoft03.text,This event of myths affects the Investigator with the most items.\n\n A harsh sound approaches you - growing louder and louder, but you can't see anything approaching. Suddenly you are wrapped in a black mass of feathers, with beaks that squark and chatter around you. They start to peck and and claw at you - attempting to get under your clothes. Suffer 2 facedown damage ({agility} -2 negates); If you suffer damage drop items equal to the number of damage taken +1. Then suffer 1 facedown horror.
-EventMythosSoft03.button1,Continue
+EventMythosSoft03Pesadilla.button1,Continue
+EventRebuscarMuebleBarPesadilla.text,All of the bottles appear to be empty, test ({observation}).
 EventMythosSoft04.text,As you walk you notice white powder and dust suspended in the air infront of you. You look up. Suddenly you hear a loud crack and the roof of the house thrown upwards.\nAs it rises, it explodes into a thousand pieces. The shards begin to melt together forming a brown mass of water, beneith its surface you see a shadow move.\n \nThe smell of tobacco and alcohol assail your nostrils, test ({lore}: 2);\nIf you pass, you recognize a face just under the surface of the water - It's Mr. Ford, looking at you with a cruel smile, gain 2 Clues {clue} and suffer 2 facedown horror. If you fail, you are unable to make out the shape, but can feel something watching you from the other side, suffer 2 facedown horror. Then all Investigators flip 3 horror faceup.
 EventMythosSoft04.button1,Continue
 EventMythosSoft05.text,\nYou are caught by surprise as the lightbulbs in the room explode around you.\n\nThis mythos event affects all Investigatros who are not in a hallway space. Place darkness in your space and all spaces within range. Then suffer 2 facedown horror ({lore} -1 negates).\n
 EventMythosSoft05.button1,Continue
-EventMythosCocina.text,This myths event affects all Investigators in the Kitchen and/or Dining Room tiles.\n\nThe dining table is set for eight people, the crockery is of exquisite quality and the gleaming silver cutlery is meticulously arranged. You become fixated, analyzing the intricate reliefs of a wine decanter. A sharpe whistle and a lacerating pain causes you to instinctively put your hand on your neck. When you take it away, you notice it stained red from a cut across your neck. Looking up you see a knife sticking in the opposite wall, its blade flexing from its recent flight. You turn quickly, but are unable to see anyone that could have thrown it. You suffer 3 facedown damage ({agility} -1 negates). If you suffer 1 or more damage, become<b> Stunned </b>. Then suffer 1 facedown horror ({will} -2 negates).
-EventMythosCocina.button1,Continue
+EventMythosCocinaPesadilla.button1,Continue
+EventAbrirPuertaFAKE2Pesadilla.text,The door opens inwards and the light from inside momentarily blinds you. Blinking away the spots from your vision you realize that there are bars that prevent you from entering the room. Inside you are surprised to see an enormous child, bigger than it should be, walking around the room pointing and shouting:\n\n<i> -Mommy, mommy! I want this, I want this little bird! </i>\n \nYou slam the door shut and block it with a chair. Suffer 3 facedown horror ({lore} -1) negates, then gain 2 Clues {clue}. Remove the explore token.
 EventMythosDespacho.text,This event of the myths affects all Investigators in the {c:TileDespacho}.\n\nThe office looks like it belongs to a collector. Several old volumes line ashelf along the back wall and one of them catches your eye. It looks ornamental, with golden reliefs down the spine. You slide the book out with great care and begin to read. It contains a wild theory about a mindless evil that resides at the center of the universe.\n\n Each investigator in the {c:TileDespacho} can choose to gain up to 2 clues {clue}, suffer 1 facedown horror for each Clue gained.
 EventMythosDespacho.button1,Continue
 EventMythosSoft06.text,The ground creaks and begins to crack sending hundreds of fractures across the floor under<b> {rnd:hero}'s </b>feet. Each step they take more cracks begin to spread, test ({agility}: 2).
@@ -407,8 +401,7 @@ EventMythosSoft06T.text,You start running and leap from table to table until you
 EventMythosSoft06T.button1,Continue
 EventMythosSoft06F.text,Helpless to react in time the floor breaks beneath your feet and you fall for what feels like an eternity.\n\nRemove the Investigator from the game board.\nInvestigators that are not on the game board cannot suffer damage or horror. They are also not effected by Mythos Events.
 EventMythosSoft06F.button1,Continue
-EventMythosSoft07.text,<b> {rnd:hero} </b> leans against a wall for a moment to catch their breath. Before they have a chance to react, grasping hands sprout from the wall reach for them, grabbing and clawing inwards.\n\nSuffers 2 facedown horror. Then test ({strength}: 2); If you fail, drop 2 random items and become<b> Stunned</b> .
-EventMythosSoft07.button1,Continue
+EventMythosSoft07Pesadilla.button1,Continue
 EventMythosBiblioteca.text,\nThis event of myths affects all Investigators in the {c:TileBIBLIOTECA}.\n\nA blonde girl with big brown eyes and an elegant dress appears before you, in one hand she holds a teddy bear with no eyes. A moment later she begins to sing: <i> \n- 1,2,3,4, ... Choose a number and read some more ... 4,3,2,1 make no mistake or you'll be done. </i>\n\nPlace the green girl token as indicated.\n
 EventMythosBiblioteca12.text,<i> - I didn't like that story! It gave me nightmares! - </i> She says sobbing, he face red and swollen like a tomato. You watch in horror as the vein in her forehead begins to swell, until her head suddenly explodes, filling the room with viscera and blood.\n\nFlip all of your horror and damage faceup. Then Discard the green girl character.
 EventMythosBiblioteca12.button1,Continue
@@ -426,21 +419,21 @@ EventMythosSoft09.text,This event effects<b> {rnd:hero}</b> \n\nYou can no longe
 EventMythosSoft09.button1,Continue
 EventMythosLavabo.text,This Mythos event affects all Investigators in the <b>Bathroom</b>.\n\n A thick, damp mist fills the space. The door does not open and quickly you are not even able to see past your own nose, test ({observation}: 2).\nIf you pass, you drop to your belly just below the fog and find fresh air to breath.\nIf you fail, you can not find an exit. The temperature has dropped rapidly and you realize that you can no longer feel your arms and legs. Suffer 1 damage and Become<b> Restrained</b>.
 EventMythosLavabo.button1,Continue
-EventMythosCampanario.text,This mythos event affects all Investigators who are not in the bell tower.\n\n The house starts to creak and a loud bell rings out, deafening you. Test ({agility}: 2); If you fail become <b> Stunned </b> and suffer 1 of damage. If you succeed you manage to clasp your hands over your ears, just in time to dampen the noise.
-EventMythosCampanario.button1,Continue
+EventMythosCampanarioPesadilla.button1,Continue
+EventBuscarMesaDespachoPesadilla.text,Among the colourful feathers that fill the drawer, you see the glint of an old metal watch and next to it a set of rusty keys.\n\nObtain the <b> Pocket Watch </b> common item, the <b> Old Keys </b>unique item and become <b>Dazed</b>. \n Remove the Search token.
 EventMythosSotano01.text,This mythos event affects all Investigators in the Basement.\n\nThe floor of the basement begins to bubble and a bright patina permeates from the floor. As if it was quicksand, the ground begins to swallow everything that rests on it. You sink into the floor and fearing that you'll be swollowed if you do not react quickly. You reach out and grab the railing of the stairs. You awake with a start and find yourself sitting on the basement steps, your face smeared with mud and manure, a trickle of drool drops from the side of your mouth.\n\nPlace the Investigator(s) on the stairs and suffer 1 horror and 2 damage.
 EventMythosSotano01.button1,Continue
 EventMythosHard01.text,This event of myths affects all Investigators.\n\nYou begin to sneeze, something has gotten up your nose and is causing your eyes to water. It seems like an allergy, but you do not remember ever having an aversion to anything. A shadow crosses the walls, then the ceiling, then the floor. You try to follow it with your eyes, but it is too fast, test ({observation} -1);\nIf you suceed, you realize that it is the shadow of a cat and although it is not solid, you can see its bright blue eyes fixated on you. Suffer 2 horror and gain 1 clue {clue}.\nIf you fail you can not dodge the shadow and it lashes out at you. Suffer 2 damage.
 EventMythosHard01.button1,Continue
-EventMythosHard03A.text,\nThis event of myths affects all Investigators.\n\nA sinister melody causes your head to pound, gripping your head you realise that your ears have started to bleed. You head feels like it is going to explore at any moment. Soft hands rest gently on yours and you look up to see the face of a small girl, she says:\n\n <i> -The spirits refuse to listen- </i>\n\nSuffer 3 damage ({strength} -1 negates) and 3 horror ({will} -1 negates).\n
-EventMythosHard03A.button1,Continue
-EventMythosHard03B.text,<b> {rnd:hero} </b> sees something shining on the ground. Bending down to examine it you pick up the pendant, on it is a small small horseshoe. It seems that luck smiles on you tonight, because you do not seen the paper on the wall disappear revealing that the walls of the house are made of bones and viscera still latent and bleeding.\n\nAll Investigators except <b> {rnd:hero} </b> suffer 3 face-down horror ({influence} -1 negates).
-EventMythosHard03B.button1,Continue
+EventMythosHard03APesadilla.button1,Continue
+EventMythosHard03BPesadilla.text,<b> {rnd:hero} </b> sees something shining on the ground. Bending down to examine it you pick up the pendant, on it is a small small horseshoe. It seems that luck smiles on you tonight, because you do not seen the paper on the wall disappear revealing that the walls of the house are made of bones and viscera still latent and bleeding.\n\nAll Investigators except <b> {rnd:hero} </b> suffer 3 face-down horror ({influence} -1 negates).
+EventMythosHard03BPesadilla.button1,Continue
+EventMythosHard04Pesadilla.text,This mythos event affects all Investigators who do not have a violet token on their character.\n\nYour belongings whisper to you, warning you of a serious threat. Suffer 1 facedown horror for each item you hold.
 EventMythosHard03C.button1,Continue
 EventMythosHard03C.text,Only the creaking wood from your food steps can be heard. No immediate effect.
-EventMythosHard02PACT.text,\nA little boy in a white shirt and baggy trousers fastened by straps appears in front of <b> {rnd:hero} </b>. He takes off his beret and asks with an affable smile:\n\n <i> - Excuse me, you seem tired ... - </i>\n\n The child removes a glass bottle from his trouser pocket and offers it to you, it appears to be filled with a strange yellow liquid:\n\n <i> - Have this, you will feel much better. Maybe he'll play with us for a little while later. - </i>\n
-EventMythosHard02PACT.button1,Accept
-EventMythosHard02PACT.button2,Refuse
+EventMythosHard02A.button1,Accept
+EventMythosHard02A.button2,Refuse
+EventMythosHard05APact.text,\nThis mythos event affects the Investigators that has the violet token on their character sheet.\n\nThe boy with the white shirt and the baggy trousers appears again before you, floating a foot off of the ground:\n\n<i> - Hello dreamer. We have come to play! I'm going to call the rest.- </i>\n\nThe child snaps his fingers and agonizing screams echo throughout the house. A group of children with blank eyes step from the shadows whispering your name. Although they are children here, you recognize some of them as your companions.\n\nAll Investigators except you have been eliminated.\n
 EventMythosHard02BPACT.text,\nYou take the small jar and drink the contents. You feel the liquid burn as it passes down your esophagus, however a moment later you start to feel much better. Turning your head, you see yourself reflected in a mirror and realize that your eyes have changed colour. Your pupils are now purple.\n\nYou may discard all facedown horror and damage, then take the purple monster token and place it on your character sheet.\n
 EventMythosHard02BPACT.button1,Continue
 EventMythosHard02CPACT.text,There is silence. Your body starts to float. As you rise from the ground, the boy extends an arm and points at you with his index finger:\n\n<i> -Why do not you want to play with us, little bird? - </i> \n\nHe stares at you, his eyes that have turned completely black ({will}: 3).
@@ -448,16 +441,15 @@ EventMythosHard02CPACT.button1,Success
 EventMythosHard02CPACT.button2,Failure
 EventMythosHard02NoPact.text,You draw strength from the depths of your being. You grab the handle of a shovel that is leaning against the wall and hit the child over the head. The shovel passes right through its mark and you stumble losing your balance. The child vanishes in a fog, his image blurred by the force of your swing.\n\nSuffer 1 horror {will} -2 negates) and 1 facedown damage ({agility} -2 negates)
 EventMythosHard02NoPact.button1,Continue
-EventMythosHard04.text,This mythos event affects all Investigators who do not have a violet token on their character.\n\nYour belongings whisper to you, warning you of a serious threat. Suffer 1 facedown horror for each item you hold.
-EventMythosHard04.button1,Continue
-EventMythosHard05A.text,\nThis mythos event affects the Investigators that has the violet token on their character sheet.\n\nThe boy with the white shirt and the baggy trousers appears again before you, floating a foot off of the ground:\n\n<i> - Hello dreamer. We have come to play! I'm going to call the rest.- </i>\n\nThe child snaps his fingers and agonizing screams echo throughout the house. A group of children with blank eyes step from the shadows whispering your name. Although they are children here, you recognize some of them as your companions.\n\nAll Investigators except you have been eliminated.\n
-EventMythosHard05A.button1,Continue
+EventMythosHard04Pesadilla.button1,Continue
+EventMythosHard02A.text,\nA little boy in a white shirt and baggy trousers fastened by straps appears in front of <b> {rnd:hero} </b>. He takes off his beret and asks with an affable smile:\n\n <i> - Excuse me, you seem tired ... - </i>\n\n The child removes a glass bottle from his trouser pocket and offers it to you, it appears to be filled with a strange yellow liquid:\n\n <i> - Have this, you will feel much better. Maybe he'll play with us for a little while later. - </i>\n
+EventMythosHard05APact.button1,Continue
+EventFinalCountdown4Pesadilla.button1,Continue
 UITextoGameOver.uitext,\nThe walls vanish before your eyes, as does the floor and ceiling. For a few moments, all you can see is darkness. You open your eyes and the figure of a man in a suit stands before you, his face is shrouded in darkness.\n\n<i> -Good night, Pajaritos. Do you fancy a whiskey? Although it seems that you still have not earned it- </i>\n\nTaking a step to reveal his face, Mr. Ford smiles at you. In his hand is a glass filled with whiskey, with two ice cubes. He raises it to his lips and takes a sip.\n\n<i> -I love having guests! And when they are like you, I never get bored! - </i>.\n\nHe advances swiftly towards you, looking your over as he approaches.\n\n<i> - Let's see if you do a little better... Next time. -</i>\n\nThe investigation is not complete.\n
 EventMythosHard05B.text,<b> \n{rnd:hero} </b>, is paralyzed in fear as they notice a black mass fluttering at their feet. It quickly increases in size, sprouting appendages which quickly form arms and legs that come to rest on the ground. A human figure, tall and dressed in an elegant suit stretches out an arm, offering a whiskey to <b> {rnd:hero} </b>:\n\n<i> - One last drink? - </i>\n\nMajestic black wings extend from behind Mr. Ford. The large wings gently wrap around you enveloping you in darkness.\n\n<b> {rnd:hero} </b> is removed from the game. The remaining Investigators have one more turn to complete the investigation.\n
 EventMythosHard05B.button1,Continue
-EventMythosHypnos.text,This mythos event affects all Investigators in the Nursery.\n Place the blue character token in indicated.\n\nThe glassy eyed hermit you saw earlier offers you a poppy flower ({influence}: 2).\nIf more Investigators passed than failed, select 'Sucess'. If more failed or if the result is tied, select 'Failure'.
-EventMythosHypnos.button1,Success
-EventMythosHypnos.button2,Failure
+EventMythosInvernadero.button1,Success
+EventMythosInvernadero.button2,Failure
 EventHypnosGOOD.text,You accept the poppy and put it behind your ear. The young man smiles and disappears, calm washes over you and you feel relieved.\n\n One of the Investigators in the Nursery may discard a facedown horror or flip 1horror facedown. Then gains 1 clue {clue}. Then remove the blue character token.
 EventHypnosGOOD.button1,Continue
 EventHypnosBAD.text,You refuse the poppy and with a swipe you knock it to the ground. The young man glares at you with rage and lashes out stabbing you with his pruning shears. When you look up he is gone.\n\n One of the Investigators in the Nursery suffers 4 damage ({strength} -2 negates). Remove the blue character token.
@@ -478,13 +470,12 @@ EventResEntregarDaga.button1,Continue
 EventResEntregarObj4.text,You show it the Puzzle Box. The cat sighs, before asking you to open it. There are only ashes inside.\n\n<i> - too small to fit inside. This is not what I'm looking for. I have little patience .- </i>\n\nIt sits back down.\n\nSuffer 1 horror ({will} -1 negates). Gain 1 clue {clue}, then place the cat token as indicated.
 EventResEntregarObj4.button1,Continue
 Event2nFailObjBast.button1,Continue
-EventFinalRound4.text,<b> {rnd:hero} </b> sees the translucent figure of a child appear before him. He tilts his head and with a shrill little voice says: <i>\n- 4.- </i>\n\n<b> {rnd:hero} </b> suffers 1 horror ({will} -2 negates).
-EventFinalRound4.button1,Continue
+EventFinalCountdown3Pesadilla.button1,Continue
+EventFinalCountdown4Pesadilla.text,<b> {rnd:hero} </b> sees the translucent figure of a child appear before him. He tilts his head and with a shrill little voice says: <i>\n- 4.- </i>\n\n<b> {rnd:hero} </b> suffers 1 horror ({will} -2 negates).
 EventLlegarSotanoPasadizo.button1,Continue
-EventFinalRound3.text,<b> {rnd:hero} </b> sees the translucent figure of a child appear before him. He tilts his head and with a shrill little voice says: <i>\n- 3.- </i>\n\n<b> {rnd:hero} </b> suffers 1 horror ({will} -2 negates).
-EventFinalRound3.button1,Continue
-EventFinalRound2.text,<b> {rnd:hero} </b> sees the translucent figure of a child appear before him. He tilts his head and with a shrill little voice says: <i>\n- 2.- </i>\n\n<b> {rnd:hero} </b> suffers 1 horror ({will} -2 negates).
-EventFinalRounEnd.text,<b> {rnd:hero} </b> sees the translucent figure of a child appear before him. He tilts his head and with a shrill little voice says: <i>\n- 1.- </i>\n\n<b> {rnd:hero} </b> suffers 1 horror ({will} -2 negates).
+EventFinalCountdown2Pesadilla.text,<b> {rnd:hero} </b> sees the translucent figure of a child appear before him. He tilts his head and with a shrill little voice says: <i>\n- 2.- </i>\n\n<b> {rnd:hero} </b> suffers 1 horror ({will} -2 negates).
+EventFinalCountdown2Pesadilla.button1,Continue
+EventFinalCountdown1.button1,Continue
 EventMostrarRESET.text,You appear to be in a small dimly lit room. The bedside light illuminates a beautiful porcelain vase full of red poppies. It casts just enough light for you to see that the walls are full of potraits, whose eyes seem to follow your every movement.\n\n Place the {c:TileTileNegativeEntry} tile and a wall as indicated. Each Investigator starts with 1 clue {clue} token.
 EventMostrarRESET.button1,Continue
 EventFailTablaSuelta.button1,Continue
@@ -508,7 +499,7 @@ EventMeterManoDebajoCama.button1,Continue
 EventResolucionTirarAlfHAB1.button1,Continue
 EventResolucionPuzzle1.button1,Continue
 EventFantasmaVerdeHABLA3.button1,Continue
-EventSOLRebuscarMuebleComedor.button1,Continue
+EventSOLRebuscarBar.text,After a while of searching through empty bottles, you discover small compartment that contains the only full bottle in the cabinet. When you take it out you realize that you have something hanging around your neck.\n\n Gain the <b>Holy Water </b> common item and the<b> {c:QItemSectario}</b> unique item. Gain 1 clue {clue}. Remove the Search token.
 EventBuscarNevera.button1,Continue
 EventDentroCampanario.button1,Continue
 EventDentroSotano1.button1,Continue
@@ -521,8 +512,8 @@ EventMythosHABOUT02.button1,Continue
 EventVistazo1C.button1,Continue
 EventResMarcadorFake3.button1,Continue
 EventPrefinal3A.button1,Continue
-EventFinalRound2.button1,Continue
-EventFinalRounEnd.button1,Continue
+EventDescifrarBaho2Pesadilla.text,The bathroom lights suddenly goes out and the air turns cold.\n\n Place a darkness in the space. All Investigators in the Bathroom space suffer 2 horror ({will} -1 negates).
+EventFinalCountdown3Pesadilla.text,<b> {rnd:hero} </b> sees the translucent figure of a child appear before him. He tilts his head and with a shrill little voice says: <i>\n- 3.- </i>\n\n<b> {rnd:hero} </b> suffers 1 horror ({will} -2 negates).
 EventInspeccionarNota01.text,The image of a beautiful woman surrounded by cats. With strange symbols engraved below.
 EventInspeccionarNota01.button1,{action} Examine
 UIDejarPrueba.uitext,Stop Examining
@@ -545,3 +536,10 @@ EventIntro_TextLore00.button1,Continue
 EventIntro_TextLore01.text,Your head pounds and in your mouth you can taste the familiar taste of blood. You contemplate opening your eyes, but fear it will just make your throbbing head more painful.\n\nThe last thing you remember was meeting Mr. Ford at that clandestine bar, in the basement of the bird shop.
 EventIntro_TextLore01.button1,Continue
 EventRezaryLlorar.text,Nothing happens, but for some reason you feel a sense of relief.
+TokenBusquedaSotano2.text,A pile of old junk blackened by manure, is stacked in front of the staircase.
+TokenPuertaAzulON.text,A white door stained with mud. A faint blue light filters through it.
+EventAbrirPuertaFAKE1Pesadilla.text,You open the door and you barely have time to react as a pile of bricks fall on you. Battered and bruised you look up to see that the doorway has been bricked over.\n\n You suffer 2 damage, gain 1 clue {clue} and become <b> Dazed</b>. Remove the explore token.
+EventMythosSoft03Pesadilla.text,This event of myths affects the Investigator with the most items.\n\n A harsh sound approaches you - growing louder and louder, but you can't see anything approaching. Suddenly you are wrapped in a black mass of feathers, with beaks that squark and chatter around you. They start to peck and and claw at you - attempting to get under your clothes. Suffer 2 facedown damage ({agility} -2 negates); If you suffer damage drop items equal to the number of damage taken +1. Then suffer 1 facedown horror.
+EventMythosSoft07Pesadilla.text,<b> {rnd:hero} </b> leans against a wall for a moment to catch their breath. Before they have a chance to react, grasping hands sprout from the wall reach for them, grabbing and clawing inwards.\n\nSuffers 2 facedown horror. Then test ({strength}: 2); If you fail, drop 2 random items and become<b> Stunned</b> .
+EventFinalCountdown1.text,<b> {rnd:hero} </b> sees the translucent figure of a child appear before him. He tilts his head and with a shrill little voice says: <i>\n- 1.- </i>\n\n<b> {rnd:hero} </b> suffers 1 horror ({will} -2 negates).
+EventMythosInvernadero.text,This mythos event affects all Investigators in the Nursery.\n Place the blue character token in indicated.\n\nThe glassy eyed hermit you saw earlier offers you a poppy flower ({influence}: 2).\nIf more Investigators passed than failed, select 'Sucess'. If more failed or if the result is tied, select 'Failure'.

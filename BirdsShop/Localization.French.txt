@@ -13,31 +13,30 @@ EventBusquedaHAB11.button1,Continuer
 quest.name,La volière à 22h30 (V2.2)
 quest.description,La famille Gordon vous a contacté pour retrouver leur fille, Felicia. Elle a disparu depuis quelques jours et même si la police croit qu'elle a fui avec son petit ami, ses parents n'en sont pas si sûrs. Le seul indice est un rendez-vous dans son agenda personnel: <i>la volière à 22h30</i>.\nCe scénario n'a besoin que de la boîte initiale de Mansions 2.\nNotes du créateur : Si vous voulez affronter ce scénario, cela pose un défi différent aux autres scénarios de Mansions of Madness, il est extrêmement difficile et frustrant. Tu devras te promener avec mille yeux.
 quest.authors,Miss Fernwood & EtiCarasoft\n\nFrançais: BenRQ\nEnglish: Scrubbless    
-EventFinalRounEnd.text,<b>{rnd:hero}</b> voit le visage translucide d'un enfant apparaître devant lui. L'enfant se tape la tête et d'une petite voix aiguë dit <i>\n- 1. -</i>\n\n<b>{rnd:hero}</b> subit 1 Horreur annulée par ({will}-2).
-EventFinalRounEnd.button1,Continuer
-EventFinalRound4.text,<b>{rnd:hero}</b> voit le visage translucide d'un enfant apparaître devant lui. L'enfant se tape la tête et d'une petite voix aiguë dit <i>\n- 4. -</i>\n\n<b>{rnd:hero}</b> subit 1 Horreur annulée par ({will}-2).
-EventFinalRound4.button1,Continuer
+EventFinalCountdown1.button1,Continuer
+EventFinalCountdown3Pesadilla.button1,Continuer
+EventFinalCountdown4Pesadilla.text,<b>{rnd:hero}</b> voit le visage translucide d'un enfant apparaître devant lui. L'enfant se tape la tête et d'une petite voix aiguë dit <i>\n- 4. -</i>\n\n<b>{rnd:hero}</b> subit 1 Horreur annulée par ({will}-2).
+EventFinalCountdown4Pesadilla.button1,Continuer
 EventSotanoCaida2.text,Vous vous demandez depuis combien de temps vous tombez et si ce terrier a un fond. Vous réalisez que la vitesse de chute augmente rapidement jusqu'à ce que vous atterrissiez sur un fond dur et froid.
 EventSotanoCaida2.button1,Continuer
 EventLlegarSotanoPasadizo.text,Vous prenez un virage et une légère lumière jaune apparaît au bout du tunnel. Vous vous dirigez vers elle pour arriver à ce qui ressemble à un sous-sol.
 EventLlegarSotanoPasadizo.button1,Continuer
-EventFinalRound3.text,<b>{rnd:hero}</b> voit le visage translucide d'un enfant apparaître devant lui. L'enfant se tape la tête et d'une petite voix aiguë dit <i>\n- 3. -</i>\n\n<b>{rnd:hero}</b> subit 1 Horreur annulée par ({will}-2).
-EventFinalRound3.button1,Continuer
-EventFinalRound2.text,<b>{rnd:hero}</b> voit le visage translucide d'un enfant apparaître devant lui. L'enfant se tape la tête et d'une petite voix aiguë dit <i>\n- 2. -</i>\n\n<b>{rnd:hero}</b> subit 1 Horreur annulée par ({will}-2).
-EventFinalRound2.button1,Continuer
-EventMythosHard02PACT.text,Un petit garçon vêtu d'une chemise blanche et d'un large pantalon tenu par des bretelles apparaît devant <b>{rnd:hero}</b>. Il enlève son béret et dit avec un sourire affable:\n<i>- Excuse-moi, tu parais fatigué ....... -</i>\nL'enfant sort une bouteille remplie d'un liquide jaune de la poche de son pantalon. Il vous l'offre:\n<i>- Avec cela, tu te sentiras beaucoup mieux. Je te la donne si tu joues plus tard avec nous. -</i>
-EventMythosHard02PACT.button1,Accepter
-EventMythosHard02PACT.button2,Ignorer
-EventMythosHard03A.text,Cet événement de mythe affecte tous les  investigateurs.\n\nUne mélodie sinistre vous provoque un mal de tête aigu, vos oreilles se mettent à saigner et vous vous tenez fermement la tête, pensant qu'elle va exploser à tout moment. Des mains se posent doucement sur les tiennes, tu lèves les yeux et une petite fille dit:\n<i>- Les esprits refusent d'écouter. -</i>\n\nSubissez 3 Dégâts annulés par ({strength}) et 3 Horreurs annulées par ({will}).
-EventMythosHard03A.button1,Continuer
-EventMythosHard03B.text,<b>{rnd:hero}</b> aperçoit quelque chose qui brille sur le sol et se penche pour le ramasser. C'est un pendentif avec un petit fer à cheval. La chance l'accompagne ce soir, car pendant ces quelques secondes, le revêtement sur le mur a disparu dévoilant les murs de la maison faits d'os et de viscères encore vivants et saignants.\n\nTous les investigateurs sauf <b>{rnd:hero}</b> subissent 3 Horreurs face cachée annulées par ({influence}).
-EventMythosHard03B.button1,Continuer
+EventFinalCountdown3Pesadilla.text,<b>{rnd:hero}</b> voit le visage translucide d'un enfant apparaître devant lui. L'enfant se tape la tête et d'une petite voix aiguë dit <i>\n- 3. -</i>\n\n<b>{rnd:hero}</b> subit 1 Horreur annulée par ({will}-2).
+EventFinalCountdown2Pesadilla.text,<b>{rnd:hero}</b> voit le visage translucide d'un enfant apparaître devant lui. L'enfant se tape la tête et d'une petite voix aiguë dit <i>\n- 2. -</i>\n\n<b>{rnd:hero}</b> subit 1 Horreur annulée par ({will}-2).
+EventFinalCountdown2Pesadilla.button1,Continuer
+EventDescifrarBaho2Pesadilla.text,Les lumières de la salle de bain s'éteignent et l'air devient soudainement glacial.\n\nPlacez une tuile Obscurité dans cette salle. Tous les investigateurs dans la salle de bain subisse 2 Horreurs annulés par ({will} -1).
+EventMythosHard02A.button1,Accepter
+EventMythosHard02A.button2,Ignorer
+EventMythosHard05APact.text,Cet évènement de mythe affecte l'investigateur ayant un marqueur violet sur sa tuile personnage.\n\nLe petit garçon à la chemise blanche et au large pantalon, apparaît de nouveau devant vous, flottant à quelques centimètres au-dessus du sol:\n<i>- Bonjour rêveur. Nous sommes venus jouer. J'appelle les autres.. -</i>\nL'enfant claque des doigts et des cris déchirants traversent la maison. Devant vous apparaissent les silhouettes d'un groupe d'enfants aux yeux vides, chuchotant votre nom. Bien qu'ils soient des enfants, vous reconnaissez parmi eux certains de vos compagnons.\n\nTous les investigateurs sauf vous sont éliminés.
+EventMythosHard03APesadilla.button1,Continuer
+EventMythosHard03BPesadilla.text,<b>{rnd:hero}</b> aperçoit quelque chose qui brille sur le sol et se penche pour le ramasser. C'est un pendentif avec un petit fer à cheval. La chance l'accompagne ce soir, car pendant ces quelques secondes, le revêtement sur le mur a disparu dévoilant les murs de la maison faits d'os et de viscères encore vivants et saignants.\n\nTous les investigateurs sauf <b>{rnd:hero}</b> subissent 3 Horreurs face cachée annulées par ({influence}).
+EventMythosHard03BPesadilla.button1,Continuer
+EventMythosHard04Pesadilla.text,Cet évènement de mythe affecte tous les investigateurs n'ayant pas un marqueur violet sur leurs tuiles personnage.\n\nVos affaires chuchotent, vous avertissant d'une grave menace. Prenez 1 Horreur face cachée pour chaque objet en votre possession.
 EventMythosHard03C.text,Seul le grincement du bois à chaque pas que vous faites vous accompagne ce soir. Il n'y a pas d'effet immédiat.
 EventMythosHard03C.button1,Continuer
-EventMythosHard04.text,Cet évènement de mythe affecte tous les investigateurs n'ayant pas un marqueur violet sur leurs tuiles personnage.\n\nVos affaires chuchotent, vous avertissant d'une grave menace. Prenez 1 Horreur face cachée pour chaque objet en votre possession.
-EventMythosHard04.button1,Continuer
-EventMythosHard05A.text,Cet évènement de mythe affecte l'investigateur ayant un marqueur violet sur sa tuile personnage.\n\nLe petit garçon à la chemise blanche et au large pantalon, apparaît de nouveau devant vous, flottant à quelques centimètres au-dessus du sol:\n<i>- Bonjour rêveur. Nous sommes venus jouer. J'appelle les autres.. -</i>\nL'enfant claque des doigts et des cris déchirants traversent la maison. Devant vous apparaissent les silhouettes d'un groupe d'enfants aux yeux vides, chuchotant votre nom. Bien qu'ils soient des enfants, vous reconnaissez parmi eux certains de vos compagnons.\n\nTous les investigateurs sauf vous sont éliminés.
-EventMythosHard05A.button1,Continuer
+EventMythosHard04Pesadilla.button1,Continuer
+EventMythosHard02A.text,Un petit garçon vêtu d'une chemise blanche et d'un large pantalon tenu par des bretelles apparaît devant <b>{rnd:hero}</b>. Il enlève son béret et dit avec un sourire affable:\n<i>- Excuse-moi, tu parais fatigué ....... -</i>\nL'enfant sort une bouteille remplie d'un liquide jaune de la poche de son pantalon. Il vous l'offre:\n<i>- Avec cela, tu te sentiras beaucoup mieux. Je te la donne si tu joues plus tard avec nous. -</i>
+EventMythosHard05APact.button1,Continuer
 EventMythosHard05B.text,<b>{rnd:hero}</b>, est paralysé en voyant une masse noire flotter à ses pieds. Elle augmente rapidement en taille et certains appendices, qui deviennent des bras, se posent sur le sol pour se lever. Une silhouette humaine, grande et vêtue d'un costume élégant, tend son bras et offre un whisky à <b>{rnd:hero}</b>:\n<i>- Un dernier verre? -</i>\nM. Ford déploie les ailes noires majestueuses qui reposent sur son dos et enlace doucement dans celles-ci <b>{rnd:hero}</b>, qui prend alors une grande gorgée de whisky.\n\n<b>{rnd:hero}</b> est éliminé et les investigateurs ont un seul tour pour terminer l'enquête.
 EventMythosHard05B.button1,Continuer
 EventMythosHard01.text,Cet évènement de mythe affecte tous les investigateurs.\n\nVous commencez à éternuer, quelque chose est entré dans votre nez et vos yeux pleurent. Cela ressemble à une allergie, mais vous ne vous souvenez pas avoir une allergie à quoi que ce soit. Une ombre traverse les murs, puis le plafond, puis le sol. Vous essayez de la suivre des yeux, mais elle est très rapide ({observation} -1);\nSi vous réussissez ce test, vous réalisez, sans que cela ne vous rassure, que c'est l'ombre d'un chat, vous pouvez voir ses yeux bleus vifs fixés sur vous. Subissez 1 Horreur et gagner 1 indice {clue}.\nSi vous échouez ce test, vous ne pouvez pas esquiver l'ombre qui vous attaque. Prenez 2 Dégâts face cachée.
@@ -49,8 +48,8 @@ EventCaidaTrampillaCampanario.text,Bien que vous continuiez à tomber, il semble
 EventCaidaTrampillaCampanario.button1,Continuer
 EventMostrarSotanoCaida.text,Vous vous demandez depuis combien de temps vous tombez et si ce terrier a un fond. Alors que vous y réfléchissez, la vitesse de chute augmente rapidement jusqu'à ce que vous atterrissiez sur un sol dur et froid.\n\nPlacez la tuile {c:TileSotano}, le marqueur pour la porte et pour le passage secret aux endroits indiqués.
 EventMostrarSotanoCaida.button1,Continuer
-EventHeridoCaidaSotano.text,Placez l'investigateur qui est tombé à travers la trappe du clocher dans l'espace du sous-sol. Cet investigateur défausse toutes ses cartes Dégâts face cachée et prend une carte Blessée. Vous êtes <b>BLESSÉ</b>. À cause du coup contre le sol, vous gagnez l'état <b>Étourdi</b>.\n\nSi l'investigateur était déjà blessé, il est retiré du jeu. Le reste des investigateurs ont un tour supplémentaire pour compléter l'enquête.
-EventHeridoCaidaSotano.button1,Continuer
+EventHeridoCaidaSotanoPesadilla.button1,Continuer
+EventMythosHard03APesadilla.text,Cet événement de mythe affecte tous les  investigateurs.\n\nUne mélodie sinistre vous provoque un mal de tête aigu, vos oreilles se mettent à saigner et vous vous tenez fermement la tête, pensant qu'elle va exploser à tout moment. Des mains se posent doucement sur les tiennes, tu lèves les yeux et une petite fille dit:\n<i>- Les esprits refusent d'écouter. -</i>\n\nSubissez 3 Dégâts annulés par ({strength}) et 3 Horreurs annulées par ({will}).
 EventHeridoCaidaSotano2.text,Placez l'investigateur qui est tombé à travers la trappe du clocher dans l'espace du sous-sol. Cet investigateur défausse toutes ses cartes Dégâts face cachée et prend une carte Blessée. Vous êtes <b>BLESSÉ</b>. À cause du coup contre le sol, vous gagnez l'état <b>Étourdi</b>.\n\nSi l'investigateur était déjà blessé, il est retiré du jeu. Le reste des investigateurs ont un tour supplémentaire pour compléter l'enquête.
 EventHeridoCaidaSotano2.button1,Continuer
 EventAccionarAdelante2.text,Avant la fin du premier son de cloche, le sol disparaît sous vos pieds et vous tombez dans un tunnel sombre.
@@ -68,14 +67,13 @@ EventBuscarCajasCampanario.button1,Continuer
 EventBuscarCajasCampanario.button2,Vous cacher
 EventBIBLIA.text,Après ce qui semble être des heures à examiner des boîtes, vous en ouvrez une pleine de plumes de couleur. Entre les plumes, vous trouvez une petite boîte en forme de sarcophage.\n\nObtenez l'objet unique <b>Boîte à Énigme</b> et 1 indice {clue}.\nSi vous avez obtenu au moins 3 succès, procurez-vous l'objet commun <b>Bible du Roi Jacques</b>. Retirez ce jeton Recherche.
 EventBIBLIA.button1,Continuer
-EventSOLRebuscarMuebleComedor.text,Après avoir passé un certain temps à retirer des bouteilles vides, vous découvrez un double fond contenant la seule bouteille pleine du placard. Lorsque vous la sortez, vous réalisez que vous avez quelque chose enroulé autour du cou.\n\nObtenez l'objet commun <b>Eau Bénite</b> et l'objet unique <b>Sceau de Culte</b>. Vous gagnez 1 indice {clue}. Retirez ce jeton Recherche.
-EventSOLRebuscarMuebleComedor.button1,Continuer
+EventSOLRebuscarBar.text,Après avoir passé un certain temps à retirer des bouteilles vides, vous découvrez un double fond contenant la seule bouteille pleine du placard. Lorsque vous la sortez, vous réalisez que vous avez quelque chose enroulé autour du cou.\n\nObtenez l'objet commun <b>Eau Bénite</b> et l'objet unique <b>Sceau de Culte</b>. Vous gagnez 1 indice {clue}. Retirez ce jeton Recherche.
+EventSOLRebuscarBar.button1,Continuer
 EventResMarcadorFake3.text,Vous prenez le classeur très soigneusement. Il semble qu'à tout moment il peut disparaître entre vos mains. Vous l'ouvrez et beaucoup de plumes colorées tombent sur le sol et parmi elles un parchemin roulé et laqué.\n\nObtenez l'objet unique <b>Vieux Journal</b> et vous obtenez le statut <b>Sonné</b>. Retirez ce jeton Recherche.
 EventResMarcadorFake3.button1,Continuer
 EventBuscarNevera.text,Toute la nourriture est avariée et d'énormes vers se frayent un chemin à travers les restes. Vous ouvrez le petit congélateur et trouvez au fond une bouteille qui vous est familière.\n\nObtenez l'objet commun <b>Whisky</b>, vous obtenez l'état <b>Sonné</b>. Retirez ce jeton Recherche.
 EventBuscarNevera.button1,Continuer
-EventBuscarMesaDespacho.text,Parmi les pétales de fleurs colorées qui remplissent le tiroir, vous apercevez le reflet brillant du cadran d'une vieille montre et un tas de clés rouillées.\n\nPrenez l'objet commun <b>Montre Gousset</b> et l'objet unique <b>Vieilles Clés</b>, vous obtenez le statut <b>Sonné</b>. Retirez ce jeton Recherche.
-EventBuscarMesaDespacho.button1,Continuer
+EventBuscarMesaDespachoPesadilla.button1,Continuer
 EventLibroBiblio1.text,Vous sortez le livre et sur la couverture, vous pouvez lire: <i>Les Métamorphoses: Livre XI, par Ovidio</i>. Lorsque vous retirez le livre, vous découvrez un panneau métallique avec 4 boutons rétroéclairés. Ils sont tous éteints.\n\nGagne 1 indice {clue}. Retirez ce jeton Recherche et placez un jeton Interaction à l'endroit indiqué.
 EventLibroBiblio1.button1,Continuer
 EventBuscarSotano1RES.text,Vous vous mettez à genoux pour creuser plus facilement dans la boue jusqu'à ce que vous déterriez une énorme boîte en métal. Vous l'ouvrez facilement et à l'intérieur il y a plusieurs objets utiles.\n\nObtenez l'objet commun <b>Bandages</b> et l'objet commun <b>Étui à Cigarettes Porte-Bonheur</b>. Retirez ce jeton Recherche.
@@ -123,8 +121,8 @@ EventFailTablaSuelta.button1,Continuer
 EventFailPuertaCampanario.text,Vous vous précipitez contre la porte, mais malgré vos efforts elle refuse de s'ouvrir.
 EventFailPuertaCampanario.button1,Continuer
 EventFailBuscarCajas.text,Vous passez des heures à chercher dans les livres, mais vous ne trouvez rien d'intéressant.
-EventFailBuscarBar.text,Vous ne trouvez rien d'intéressant.
-EventFailBuscarBar.button1,Continuer
+EventFailRebuscarBar.button1,Continuer
+EventMythosCocinaPesadilla.text,Cet évènement de mythe affecte tous les investigateurs dans la cuisine et / ou la salle à manger.\n\nLa table de la salle à manger est prévue pour huit personnes, la vaisselle est de bonne qualité et les couverts argentés brillants sont méticuleusement disposés. Alors que vous êtes absorbé dans l'analyse des reliefs complexes de la carafe de vin, vous entendez un sifflement et sentez une douleur de lacération dans le cou. Vous mettez instinctivement votre main sur la plaie. Quand vous l'enlevez, vous voyez qu'un filet de sang l'a teint en rouge. Vous regardez vers le haut et voyez un couteau planté sur le mur opposé. Vous vous tournez rapidement, mais vous ne voyez personne. Prenez 2 Dégâts face cachée annulée par ({agility} -1). Si vous subissez au moins 1 Dégât vous acquérez l'état <b>Étourdi</b>. Puis prenez 1 Horreur face cachée annulée par ({will} -2).
 EventFailFake4.text,Vous tirez sur la chaîne, mais elle reste fixée au sol.
 EventFailFake4.button1,Continuer
 EventMALTentaculo.text,Lorsque vous ouvrez la lourde porte, la vision d'une grande ville sous-marine en flammes paralyse votre esprit et votre corps. Un tentacule vert s'enroule autour de votre corps, vous tire violemment et vous traîne vers la ville en feu. Pendant un instant, vous voyez la petite fille en robe blanche vous sourire, et fermer la porte.\n\nL'investigateur a été éliminé. Les investigateurs restant ont un tour supplémentaire pour compléter l'enquête.
@@ -168,8 +166,8 @@ EventMythosSoft02Ignorar.button1,Succès
 EventMythosSoft02Ignorar.button2,Échec
 EventMythosSoft02IgnorarBIEN.text,Vous respirez profondément. Cela fait maintenant des heures que vous n'avez pas mangé ni dormi, et votre cerveau vous joue des tours. Vous continuez à marcher et plus vous vous éloignez, plus les gazouillis disparaissent. Un profond soulagement vous envahit.\n\nVous pouvez défausser une de vos cartes Horreur face cachée ou mettre une carte Horreur face cachée.
 EventMythosSoft02IgnorarBIEN.button1,Continuer
-EventMythosSoft03.text,Cet événement de mythe affecte l'investigateur avec le plus d'objets.\n\nUn son strident se rapproche, et vous êtes soudainement enveloppé dans une masse noire de plumes et de pics. Ils commencent à vous taillader et essayent de se faufiler sous vos vêtements. Prenez 2 dégâts face cachée annulée par ({agility} -1); Sélectionnez au hasard et lâchez autant d'objets que de points de Dégât subits, puis prenez 1 Horreur face cachée.
-EventMythosSoft03.button1,Continuer
+EventMythosSoft03Pesadilla.button1,Continuer
+EventRebuscarMuebleBarPesadilla.text,Il semblerait que toutes les bouteilles soient vides ({observation}).
 EventMythosSoft04.text,L'air est rempli de particule blanche en suspension. Vous levez la tête. Subitement, vous entendez un fort craquement et vous voyez le toit de la maison projeté vers le haut. Il continue de monter, et explose soudainement en mille morceaux, révélant une grande masse d'eau brune et une ombre qui bouge au travers.\nVous sentez l'odeur du tabac et de l'alcool ({lore}: 2);\nSi vous réussissez le test, vous reconnaissez le visage de l'autre côté de l'eau. C'est M. Ford qui regarde à l'intérieur et sourit. Vous gagnez 2 indices {clue} et vous prenez 2 Horreur face cachée. Ensuite tous les investigateurs mettent 2 Horreurs face visible.
 EventMythosSoft04.button1,Continuer
 EventMythosSoft05.text,L'explosion des ampoules vous surprend.\n\nCet évènement de mythe concerne tous les investigateurs qui ne sont pas dans un couloir. Placez des jetons obscurité dans votre espace et ceux qui sont à votre portée. Prenez 2 Horreurs face cachée annulée par Savoir ({lore} -1).
@@ -185,10 +183,9 @@ EventVistazo2.text,Les escaliers descendent à l'étage inférieur. Ils sont fla
 EventVistazo2.button1,Continuer
 EventRegresoMythos6.text,Vous ouvrez les yeux et reconnaissez le couloir de la maison. L'anxiété rend votre respiration difficile. Cela aurait-il été un rêve?\n\nPlacez l'investigateur qui a été mis hors du plateau par le précédent événement de mythe, à l'endroit indiqué. Ensuite, prenez la pioche des cartes Horreurs et prenez la première carte Horreur restant face visible. Subissez cette carte Horreur.
 EventRegresoMythos6.button1,Continuer
-EventMythosCocina.text,Cet évènement de mythe affecte tous les investigateurs dans la cuisine et / ou la salle à manger.\n\nLa table de la salle à manger est prévue pour huit personnes, la vaisselle est de bonne qualité et les couverts argentés brillants sont méticuleusement disposés. Alors que vous êtes absorbé dans l'analyse des reliefs complexes de la carafe de vin, vous entendez un sifflement et sentez une douleur de lacération dans le cou. Vous mettez instinctivement votre main sur la plaie. Quand vous l'enlevez, vous voyez qu'un filet de sang l'a teint en rouge. Vous regardez vers le haut et voyez un couteau planté sur le mur opposé. Vous vous tournez rapidement, mais vous ne voyez personne. Prenez 2 Dégâts face cachée annulée par ({agility} -1). Si vous subissez au moins 1 Dégât vous acquérez l'état <b>Étourdi</b>. Puis prenez 1 Horreur face cachée annulée par ({will} -2).
-EventMythosCocina.button1,Continuer
-EventMythosSoft07.text,<b>{rnd:hero}</b> se repose un moment sur le mur, pour reprendre son souffle. Il soupire profondément et essaie de se détendre. Soudain des mains surgissent du mur l'attrapent et le tirent vers l'intérieur du mur.\n\nSubissez 1 Horreur. Ensuite, effectuez un test de ({strength}: 2); Si vous échouez, lâchez 2 objets au hasard et prenez l'état <b>Entravé</b>.
-EventMythosSoft07.button1,Continuer
+EventMythosCocinaPesadilla.button1,Continuer
+EventAbrirPuertaFAKE2Pesadilla.text,La porte s'ouvre vers l'intérieur. Pendant un moment, la lumière qui vient de l'autre côté vous aveugle. Lorsque vos yeux se sont fait à la lumière, vous réalisez que des barres vous empêchent de franchir le seuil et vous identifiez clairement le visage d'un enfant de taille énorme, qui passe de l'autre côté en vous pointant du doigt et en criant:\n\n<i>- Maman, maman! Je veux ça, je veux ce petit oiseau!</i>\n\nVous fermez la porte et la bloquez avec une chaise. Prenez 3 Horreurs face cachée annulée par ({lore}) et vous gagnerez 2 indices {clue}. Ensuite, retirez ce jeton Exploration.
+EventMythosSoft07Pesadilla.button1,Continuer
 EventMythosBiblioteca.text,Cet évènement de mythe affecte tous les investigateurs à la bibliothèque.\n\nUne fille blonde aux grands yeux bruns, en robe élégante et un ours en peluche sans yeux à la main, apparaît devant vous et commence à chanter: <i>- 1,2,3,4, ... Choisit un numéro et lit un peu ... 4,3,2,1 si tu me déçois, tu feras pas long feu. -</i>\n\nPlacez le jeton vert petite fille à l'endroit indiqué.
 EventMythosBiblioteca.button1,1
 EventMythosBiblioteca.button2,2
@@ -212,8 +209,8 @@ EventMythosSoft09.text,<b>{rnd:hero}</b> ne peut plus ignorer ce que les voix da
 EventMythosSoft09.button1,Continuer
 EventMythosLavabo.text,Cet événement de mythe affecte les investigateurs dans la salle de bain.\n\nUn épais brouillard humide remplit la pièce. La porte ne s'ouvre pas et vous ne voyez plus vos mains ({observation}: 2).\nSi vous réussissez ce test, vous tombez au sol juste sous le brouillard à la recherche d'air frais.\nSi vous échouez, vous ne trouvez pas la sortie. La température a rapidement chuté et vous réalisez que vous ne sentez plus vos bras et vos jambes. Vous perdez connaissance. Vous êtes <b>Entravé</b> et subissez 1 Dégât.
 EventMythosLavabo.button1,Continuer
-EventMythosCampanario.text,Cet évènement de mythe affecte tous les investigateurs qui ne sont pas dans le clocher.\n\nLa maison commence à craquer et un bruit de cloche assourdissant retentit ({agility}: 2); Si vous échouez, vous êtes <b>Étourdi</b> et subissez 1 Dégât.
-EventMythosCampanario.button1,Continuer
+EventMythosCampanarioPesadilla.button1,Continuer
+EventBuscarMesaDespachoPesadilla.text,Parmi les pétales de fleurs colorées qui remplissent le tiroir, vous apercevez le reflet brillant du cadran d'une vieille montre et un tas de clés rouillées.\n\nPrenez l'objet commun <b>Montre Gousset</b> et l'objet unique <b>Vieilles Clés</b>, vous obtenez le statut <b>Sonné</b>. Retirez ce jeton Recherche.
 EventMythosHard02BPACT.text,Vous prenez le petit flacon et buvez tout son contenu. Vous sentez le liquide vous brûlez l'œsophage, mais quelques secondes plus tard, vous commencez à vous sentir beaucoup mieux. Vous tournez la tête et vous voyez votre reflet dans un miroir. Vous réalisez que vos yeux ont changé de couleur, maintenant vos pupilles sont pourpres.\n\nVous pouvez défausser toutes les cartes Horreur et Dégâts que vous avez face cachée, puis prenez le marqueur de monstre violet et placez sur votre feuille de personnage
 EventMythosHard02BPACT.button1,Continuer
 EventMythosHard02CPACT.text,Il n'y a plus un bruit. Son corps commence à flotter. Alors qu'il quitte le sol, il tend son bras droit en pointe son index vers vous:\n<i>- Pourquoi ne veux-tu pas jouer avec nous, petit oiseau?. -</i>\n Il vous regarde avec des yeux complètement noirs ({will}: 3).
@@ -221,9 +218,8 @@ EventMythosHard02CPACT.button1,Succès
 EventMythosHard02CPACT.button2,Échec
 EventMythosHard02NoPact.text,Vous rassemblez toutes les forces qu'il vous reste. Vous attrapez la poignée d'une pelle appuyée contre le mur et frappez l'enfant sur la tête. La pelle traverse votre cible et vous perdez votre équilibre. Vous apercevez l'enfant disparaître dans un nuage dispersé par le coup de votre assaut.\n\nSubissez 1 Horreur annulée par ({will} -2) et prenez 1 Dégât face cachée annulé par ({agility} -2).
 EventMythosHard02NoPact.button1,Continuer
-EventMythosHypnos.text,Cet évènement de mythe affecte tous les investigateurs dans l'Orangerie.\nPlacez la tuile de personnage bleue à l'endroit indiqué.\n\nLe jeune homme solitaire aux yeux de verre que vous avez vu auparavant vous donne une fleur de coquelicot ({influence}: 2).\nSélectionnez le succès ou l'échec en fonction du résultat majoritaire parmi tous les investigateurs. En cas d'égalité, sélectionnez l'échec.
-EventMythosHypnos.button1,Succès
-EventMythosHypnos.button2,Échec
+EventMythosInvernadero.button1,Succès
+EventMythosInvernadero.button2,Échec
 EventDentroInvernaderoGOOD.text,À travers les immenses fenêtres qui entourent l'Orangerie, une lune bleue géante brille haut dans le ciel. Devant vous un beau jeune homme avec des ciseaux à la main taille les coquelicots qui prolongent et décorent les murs. Vous ne pouvez pas détourner le regard cette vision paisible.\n\nPlacez le jeton Exploration et marqueur de personnage dans les endroits indiqués. Vous avez la possibilité d'avancer d'une case dans la zone explorée.
 EventDentroInvernaderoGOOD.button1,Continuer
 EventHypnosGOOD.text,Vous acceptez le coquelicot et le mettez sur votre oreille. Le jeune homme sourit et disparaît, le calme prend le dessus et vous vous sentez soulagé.\n\nUn des investigateurs dans l'orangerie peut défausser une carte Horreur face cachée ou mettre une carte Horreur face cachée. Puis gagnez 1 indice {clue} et retirez le jeton de personnage bleu.
@@ -255,8 +251,7 @@ EventSustoBiblioteca.text,Le grincement du bois vous fait regarder au fond de la
 EventSustoBiblioteca.button1,Continuer
 EventDentroSotano2.text,L'odeur de fumier vous donne des nausées et l'air est saturé d'humidité. Il n'y a pas de fenêtre pour aérer la pièce et seules les portes permettent la ventilation. Le sol de boue semble avoir été récemment remué à certains endroits.\n\nPlacez les jetons Exploration et Recherche aux endroits indiqués.
 EventDentroSotano2.button1,Continuer
-EventBusquedaFake1.text,Quand vous les inspectez de plus près, vous réalisez qu'ils sont en noir et blanc, qu'ils ont un teint extrêmement pâle et que leurs yeux sont cousus.\n\Prenez 1 Horreur face cachée et obtenez le statut <b>Sonné</b>.
-EventBusquedaFake1.button1,Continuer
+EventBusquedaFake1Pesadilla.button1,Continuer
 EventResMarcadorFake2.text,Vous regardez à travers les papiers et vous ne trouvez rien d'intéressant, ils sont tous couverts de caractères qui semblent orientaux. Vous gagnez 1 indice {clue} et vous obtenez le statut <b>Sonné</b>.
 EventResMarcadorFake2.button1,Continuer
 EventRes1MarcadorFake4.text,Vous creusez jusqu'à ce que vous trouviez un morceau de chaîne qui s'enfonce encore plus profondément dans le sol. Vous pensez qu'en tirant fort, vous pouvez la déterrer ({strength}).
@@ -313,14 +308,13 @@ EventDentroCampanario.button1,Continuer
 EventForzarPuertaCampanario.text,La porte ne s'ouvre pas. L'humidité a fait gonfler le bois. Vous poussez de toutes vos forces pour ouvrir la porte.\n\nLancez 2 dés supplémentaires ({strength}) si vous avez l'objet commun <b>Pied-de-Biche</b>.
 EventForzarPuertaCampanario.button1,Continuer
 EventForzarPuertaCampanario.button2,Caché
-EventMALMAL.text,L'enfant vous serre fort dans ses bras et vous murmure à l'oreille: <i>Je suis toi et tu es moi, maintenant tu vas comprendre. -</i>\n\nVous vous voyez allongé, vous avez l'air de dormir et il vous semble que quelqu'un pleure à vos côtés, mais vous êtes seul, au milieu de nul part, tout est obscurité et vous manquez d'air. Vous avancez vers un point de lumière malgré un mauvais pressentiment. Vous voyez le visage d’un homme, avec des yeux déchirés, il attrape votre tête avec ses mains énormes et froides pour vous entraîner vers la lumière. Il vous montre le rideau rouge et une volée d'oiseaux colorés en sort, vous fonçant droit dessus.\n\nVous fermez les yeux et entendez la voix d'un petit enfant:\n- <i>Bienvenue à la maison, petit oiseau. -</i>\n\nPrenez le sort <b>Nourrir l'Esprit</b>.\nL'investigateur se défausse de toutes ses cartes Horreur face cachée et prend une carte de folie, il est maintenant <b>FOU</b>.\nSi l'investigateur était déjà fou, il est retiré du jeu et les investigateurs ont un tour supplémentaire pour terminer l'enquête.
-EventMALMAL.button1,Continuer
+EventMALMALPesadilla.button1,Continuer
 EventMAL.text,<i>- Je voulais ce petit oiseau!. -</i>\ncria l'enfant en vous regardant, le visage rouge au bord des larmes. Vous l'enveloppez dans vos bras et ses cris cessent. Il lève la tête, sourit et dit en vous regardant droit dans les yeux:\n<i>Je sais ce qu'on va faire, ... tu seras mon oisillon. -</i>
 EventMAL.button1,Continuer
 EventBorrarBaho.text,Vous effacez l'écriture avec votre avant-bras et vous vous sentez déjà mieux.\n\nDéfaussez 1 Horreur face cachée ou retournez 1 Horreur face cachée. Retirez ce jeton Recherche.
 EventBorrarBaho.button1,Continuer
-EventDescifrarBaho2.text,Les lumières de la salle de bain s'éteignent et l'air devient soudainement glacial.\n\nPlacez une tuile Obscurité dans cette salle. Tous les investigateurs dans la salle de bain subisse 2 Horreurs annulés par ({will} -1).
-EventDescifrarBaho2.button1,Continuer
+EventDescifrarBaho2Pesadilla.button1,Continuer
+EventMALMALPesadilla.text,L'enfant vous serre fort dans ses bras et vous murmure à l'oreille: <i>Je suis toi et tu es moi, maintenant tu vas comprendre. -</i>\n\nVous vous voyez allongé, vous avez l'air de dormir et il vous semble que quelqu'un pleure à vos côtés, mais vous êtes seul, au milieu de nul part, tout est obscurité et vous manquez d'air. Vous avancez vers un point de lumière malgré un mauvais pressentiment. Vous voyez le visage d’un homme, avec des yeux déchirés, il attrape votre tête avec ses mains énormes et froides pour vous entraîner vers la lumière. Il vous montre le rideau rouge et une volée d'oiseaux colorés en sort, vous fonçant droit dessus.\n\nVous fermez les yeux et entendez la voix d'un petit enfant:\n- <i>Bienvenue à la maison, petit oiseau. -</i>\n\nPrenez le sort <b>Nourrir l'Esprit</b>.\nL'investigateur se défausse de toutes ses cartes Horreur face cachée et prend une carte de folie, il est maintenant <b>FOU</b>.\nSi l'investigateur était déjà fou, il est retiré du jeu et les investigateurs ont un tour supplémentaire pour terminer l'enquête.
 EventDescifrarBaho3.text,Les lumières se rallument. Vous entendez le sanglot d'un petit garçon, recroquevillé au milieu de la salle de bain.\n\nRetirez le jeton obscurité et placez le jeton de personnage à l'endroit indiqué.
 EventDescifrarBaho3.button1,Continuer
 EventDentroDespacho.text,Le bureau au centre de la pièce a deux tiroirs d'un côté. Au fond de la pièce, vous remarquez une porte de couleur rougeâtre qui semble être faite avec une sorte de bois tropical.\n\nPlacez les jetons Exploration et Recherche aux endroits indiqués. Vous avez la possibilité d'avancer d'une case dans la zone explorée.
@@ -337,19 +331,19 @@ EventDescifrarBaho.text,Vous regardez attentivement les lettres pendant quelques
 EventDescifrarBaho.button1,Confirmer
 EventPuertaOculta12.text,Retirez le jeton du tableau mural et placez un jeton Exploration à l'endroit indiqué.
 EventPuertaOculta12.button1,Continuer
-EventAbrirPuertaFAKE2.text,La porte s'ouvre vers l'intérieur. Pendant un moment, la lumière qui vient de l'autre côté vous aveugle. Lorsque vos yeux se sont fait à la lumière, vous réalisez que des barres vous empêchent de franchir le seuil et vous identifiez clairement le visage d'un enfant de taille énorme, qui passe de l'autre côté en vous pointant du doigt et en criant:\n\n<i>- Maman, maman! Je veux ça, je veux ce petit oiseau!</i>\n\nVous fermez la porte et la bloquez avec une chaise. Prenez 3 Horreurs face cachée annulée par ({lore}) et vous gagnerez 2 indices {clue}. Ensuite, retirez ce jeton Exploration.
-EventAbrirPuertaFAKE2.button1,Continuer
+EventAbrirPuertaFAKE2Pesadilla.button1,Continuer
+EventMythosCampanarioPesadilla.text,Cet évènement de mythe affecte tous les investigateurs qui ne sont pas dans le clocher.\n\nLa maison commence à craquer et un bruit de cloche assourdissant retentit ({agility}: 2); Si vous échouez, vous êtes <b>Étourdi</b> et subissez 1 Dégât.
 EventMostrarDespacho1.text,La lampe éclaire le bureau terne mais confortable. Supprimez ce jeton Exploration et placez la tuile {c:TileDespacho}.
 EventMostrarDespacho1.button1,Continuer
-EventRebuscarMuebleBar.text,Il semblerait que toutes les bouteilles soient vides ({observation}).
-EventRebuscarMuebleBar.button1,Continuer
-EventRebuscarMuebleBar.button2,??Caché??
+EventRebuscarMuebleBarPesadilla.button1,Continuer
+EventRebuscarMuebleBarPesadilla.button2,??Caché??
+EventFailRebuscarBar.text,Vous ne trouvez rien d'intéressant.
 EventDentroCocina.text,Au fond de la salle à manger il y a une porte et à ses côtés, un élégant mobilier de bar. À travers le passage vers la cuisine, vous voyez que quelqu'un a laissé le réfrigérateur ouvert et une flaque s'est formée sur le sol. Les armoires de cuisine ont les vitrines brisées. En arrière-plan, vous apercevez une porte en bois fermée avec ce qui ressemble à un cadenas.\n\nPlacez les jetons Exploration et de recherche dans les endroits indiqués. Vous avez la possibilité d'avancer d'une case dans la zone explorée.
 EventDentroCocina.button1,Continuer
 EventMostrarPuertaOculta1.text,Cet événement n'affecte que les investigateurs sur la tuile {c:TileFinalPasillo}.\n\nVous entendez un rire. Quand vous réalisez que cela vient du portrait au bout du couloir, l'image de la fille vous sourit et la peinture commence à s'estomper. Là où se trouvant le portrait, il y a maintenant une porte si réelle que vous pouvez même sentir le bois.\n\nPrenez 2 Horreurs face cachée annulée par ({will} -1).
 EventMostrarPuertaOculta1.button1,Continuer
-EventAbrirPuertaFAKE1.text,Vous ouvrez la porte et vous avez à peine le temps de réagir qu'une pile de briques vous tombe dessus. Lorsque vous reprenez vos esprits, vous réalisez que l'ouverture est condamnée par un mur de briques.\n\nSubissez 2 Dégâts, gagnez 1 indice {clue} et obtenez le statut <b>Sonné</b>. Supprimez ce jeton Exploration.
-EventAbrirPuertaFAKE1.button1,Pleurer
+EventAbrirPuertaFAKE1Pesadilla.button1,Pleurer
+EventBusquedaFake1Pesadilla.text,Quand vous les inspectez de plus près, vous réalisez qu'ils sont en noir et blanc, qu'ils ont un teint extrêmement pâle et que leurs yeux sont cousus.\n\Prenez 1 Horreur face cachée et obtenez le statut <b>Sonné</b>.
 EventInspeccionarPuertaSOTANO11.text,Vous examinez la porte et une odeur de terre humide et de fumier remplit votre nez. Une faible lumière jaune filtre à travers les fissures, mais elle ne s'ouvre pas. Vous gagnez 2 indices {clue}.
 EventInspeccionarPuertaSOTANO11.button1,Continuer
 EventAparicionFantasmaVerde.button1,Continuer
@@ -438,8 +432,7 @@ TokenPanelControlBiblioteca.button2,{action} Bouton jaune
 TokenPanelControlBiblioteca.button3,{action} Bouton bleu
 TokenPanelControlBiblioteca.button4,{action} Bouton arrêt
 TokenPuertaCocinaPasillo.text,Une porte en bois, noircie par la fumée de la cuisine.
-TokenPuertaAzulLuzON.text,Une porte blanche tachée de boue. Sous la porte, vous remarquez une faible lumière bleue.
-TokenPuertaAzulLuzON.button1,{action} Ouvrir
+TokenPuertaAzulON.button1,{action} Ouvrir
 TokenPuertaLlavesOLDFalse.text,Une porte en bois blanche mène au jardin. Le cadenas en fer qui ferme la porte est vieux et usé.
 TokenPuertaLlavesOLDFalse.button1,Continuer
 TokenPuertaCocinaPasillo.button1,{action} Ouvrir
@@ -478,8 +471,7 @@ TokenPuertaCocina10.text,Une porte en bois blanche. Sous la poignée vous pouvez
 TokenPuertaCocina10.button1,Continuer
 TokenPuertaSotanoLuz.text,Une porte en bois avec des morceaux de peinture écaillée. Une faible lumière jaune filtre à travers les fissures.
 TokenPuertaSotanoLuz.button1,{action} Ouvrir
-TokenPuertaFAKE3.text,Un panneau sur lequel vous pouvez lire <b>Entrepôt</b>, pend d'une porte en mauvais état, en accord avec les conditions de conservation de la pièce.
-TokenPuertaFAKE3.button1,{action} Ouvrir
+EventHeridoCaidaSotanoPesadilla.text,Placez l'investigateur qui est tombé à travers la trappe du clocher dans l'espace du sous-sol. Cet investigateur défausse toutes ses cartes Dégâts face cachée et prend une carte Blessée. Vous êtes <b>BLESSÉ</b>. À cause du coup contre le sol, vous gagnez l'état <b>Étourdi</b>.\n\nSi l'investigateur était déjà blessé, il est retiré du jeu. Le reste des investigateurs ont un tour supplémentaire pour compléter l'enquête.
 PuzzleCajonMesaPasillo.text,Vous pouvez essayer de résoudre le cryptage de verrouillage. Utiliser ({observation}) comme étapes du puzzle.
 PuzzleCajonMesaPasillo.button1,Continuer
 TokenVistazo2.text,Un investigateur qui se trouve sur la tuile {c:TileEsquinaPasillo} peut faire l'action <b>Vue</b>.
@@ -531,8 +523,7 @@ EventLuzAzulSalidaOFF.button1,Continuer
 EventLuzApagadoSalidaOFF.button1,Continuer
 TokenBusquedaSotano1.text,Il y a quelque chose de brillant qui sort de la boue.
 TokenBusquedaSotano1.button1,{action} Chercher
-TokenBusqueda2Sotano.text,Vous remarquez un tas de vieilles ordures noircies par le fumier, empilées devant l'escalier.
-TokenBusqueda2Sotano.button1,{action} Chercher
+TokenBusquedaSotano2.button1,{action} Chercher
 EventRezaryLlorar.text,Rien ne semble se passer. Vous vous sentez pourtant soulagé.
 TokenzzINFO.button1,{action} Résoudre
 TokenzzINFO.text,Parmi la pile de papiers avec des gravures et des annotations manuscrites dans des langues que vous ne pouvez pas identifier, vous remarquez une série de morceaux de parchemin jaunis que quelqu'un a pris soin de déchirer. Avec un peu de patience, vous pourrez peut-être le reconstruire.
@@ -554,3 +545,10 @@ UITextoPruebaVez01.uitext,Lorsque vous regardez attentivement l'image, vous rema
 UITextoPruebaVez01.button1,Continuer
 UITextoPreuebaVez02.uitext,Lorsque vous regardez attentivement l'image, vous remarquez que les yeux de la femme ont été poignardés avec un objet pointu.\nSa cour féline semble vous suivre des yeux et vous sentez leurs pupilles pénètrer votre âme.
 EventIntro_TextLore00.button1,Continuer
+TokenBusquedaSotano2.text,Vous remarquez un tas de vieilles ordures noircies par le fumier, empilées devant l'escalier.
+TokenPuertaAzulON.text,Une porte blanche tachée de boue. Sous la porte, vous remarquez une faible lumière bleue.
+EventAbrirPuertaFAKE1Pesadilla.text,Vous ouvrez la porte et vous avez à peine le temps de réagir qu'une pile de briques vous tombe dessus. Lorsque vous reprenez vos esprits, vous réalisez que l'ouverture est condamnée par un mur de briques.\n\nSubissez 2 Dégâts, gagnez 1 indice {clue} et obtenez le statut <b>Sonné</b>. Supprimez ce jeton Exploration.
+EventMythosSoft03Pesadilla.text,Cet événement de mythe affecte l'investigateur avec le plus d'objets.\n\nUn son strident se rapproche, et vous êtes soudainement enveloppé dans une masse noire de plumes et de pics. Ils commencent à vous taillader et essayent de se faufiler sous vos vêtements. Prenez 2 dégâts face cachée annulée par ({agility} -1); Sélectionnez au hasard et lâchez autant d'objets que de points de Dégât subits, puis prenez 1 Horreur face cachée.
+EventMythosSoft07Pesadilla.text,<b>{rnd:hero}</b> se repose un moment sur le mur, pour reprendre son souffle. Il soupire profondément et essaie de se détendre. Soudain des mains surgissent du mur l'attrapent et le tirent vers l'intérieur du mur.\n\nSubissez 1 Horreur. Ensuite, effectuez un test de ({strength}: 2); Si vous échouez, lâchez 2 objets au hasard et prenez l'état <b>Entravé</b>.
+EventFinalCountdown1.text,<b>{rnd:hero}</b> voit le visage translucide d'un enfant apparaître devant lui. L'enfant se tape la tête et d'une petite voix aiguë dit <i>\n- 1. -</i>\n\n<b>{rnd:hero}</b> subit 1 Horreur annulée par ({will}-2).
+EventMythosInvernadero.text,Cet évènement de mythe affecte tous les investigateurs dans l'Orangerie.\nPlacez la tuile de personnage bleue à l'endroit indiqué.\n\nLe jeune homme solitaire aux yeux de verre que vous avez vu auparavant vous donne une fleur de coquelicot ({influence}: 2).\nSélectionnez le succès ou l'échec en fonction du résultat majoritaire parmi tous les investigateurs. En cas d'égalité, sélectionnez l'échec.
