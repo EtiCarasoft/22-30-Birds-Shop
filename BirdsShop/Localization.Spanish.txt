@@ -743,3 +743,4 @@ EventMythosBiblioteca5.button1,Continuar
 EventMythosInvernadero.text,Este evento de los mitos afecta al investigador que esté en el Vivero con la puntuación más alta de {influence}. Coloca la ficha de personaje en el lugar señalado.\n\nEl joven eremita de ojos vidriosos que has visto antes te ofrece una amapola ({influence}:2).
 EventMythosInvernaderoNoINV.button1,Continuar
 EventMythosInvernaderoNoINV.text,Oyes unos pasos al otro lado de la puerta, pero de repente cesan y todo queda en calma.\n\nDescarta la ficha de personaje.
+EventDiarioResuelto.button1,Continuar
